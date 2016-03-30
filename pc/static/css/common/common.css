@@ -196,6 +196,7 @@ p {
   cursor: pointer;
   position: relative;
   height: 34px;
+  background: #fff;
 }
 .pcs-container .pcs-header .header-content .cart .icon {
   background: url("../../images/cart_icon.png") no-repeat;
@@ -454,9 +455,9 @@ p {
 .pcs-container .pcs-header .header-content .menu .title-list .m-list .list-detail {
   display: none;
   position: absolute;
-  left: 274px;
-  top: 0;
-  border: 2px solid #e34449;
+  left: 266px;
+  border: solid #e34449;
+  border-width: 2px 2px 2px 10px;
   background: #fff;
   width: 430px;
   padding: 15px 20px 20px;
