@@ -1,4 +1,4 @@
-$(document).ready(function() {
+﻿$(document).ready(function() {
 	$('.bs-slide').bxSlider({
 		controls:false,
 		auto: 1,
@@ -97,7 +97,7 @@ $(function(){
 	$(".equiptitles li").click(function(){
 		var $this = $(this);
 		$this.addClass('cur').siblings().removeClass('cur');
-		$(".equipconts .m-equip").eq($this.index()).show().siblings().hide();
+		$(".equipconts .m-equip").eq($this.index()).addClass('zindx').siblings().removeClass('zindx');
 	});
 	
 })
