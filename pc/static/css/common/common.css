@@ -463,13 +463,8 @@ p {
   padding: 15px 20px 20px;
 }
 .pcs-container .pcs-header .header-content .menu .title-list .m-list .list-detail dl {
-  margin: 0;
-  float: left;
-  width: 100px;
-  margin-right: 10px;
-}
-.pcs-container .pcs-header .header-content .menu .title-list .m-list .list-detail dl:nth-of-type(4n) {
-  margin: 0;
+  margin: 0 0 10px;
+  width: 100%;
 }
 .pcs-container .pcs-header .header-content .menu .title-list .m-list .list-detail dl dt {
   font-size: 14px;
@@ -482,6 +477,8 @@ p {
   margin: 0;
   font-size: 12px;
   line-height: 20px;
+  display: inline-block;
+  padding-right: 20px;
   overflow: hidden;
   white-space: nowrap;
 }
