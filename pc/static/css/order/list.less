@@ -1,0 +1,316 @@
+@charset "utf-8"; 
+// 主色调
+@main-color: #dd1827;
+@main-deep-color: #b41521;
+@main-light-color: #e34449; 
+// 文字默认颜色\大小
+@font-color: #666666;
+@font-size: 14px; 
+// 页面背景
+@bg-color: #fff; 
+//页面主体宽度
+@page-width: 1200px; 
+//首页主体部分
+.pcs-content {
+    border-top: @main-deep-color 2px solid;
+    .bread_crumbs {
+        font-size: 12px;
+        padding: 12px 0;
+        .f16 {
+            font-size: 16px;
+        }
+    }
+    .left_nav {
+        float: left;
+        width: 154px;
+        border: 1px solid #ddd;
+        h2 {
+            background: #efefef;
+            font-size: 16px;
+            font-weight: normal;
+            margin: 0;
+            height: 38px;
+            line-height: 38px;
+            padding: 0 0 0 19px;
+            border-bottom: 1px solid #ddd;
+        }
+        .nav_list {
+            padding: 7px 0 12px 35px;
+            line-height: 34px;
+            font-size: 14px;
+            li {
+                &.cur {
+                    a {
+                        color: #dd1827;
+                    }
+                }
+            }
+        }
+    }
+    .right_box {
+        margin-left: 168px;
+        .title {
+            height: 45px;
+            line-height: 45px;
+            padding-left: 15px;
+            background: #efefef;
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 32px;
+        }
+        .tabs_box {
+            overflow: hidden;
+            zoom: 1;
+            margin-bottom: 15px;
+            .left_tabs {
+                float: left;
+                font-weight: bold;
+                span {
+                    padding: 0 15px;
+                    border-bottom: 1px solid #fff;
+                    cursor: pointer;
+                    line-height: 40px;
+                    display: inline-block;
+                    &.cur {
+                        border-color: #dd1827;
+                        color: #dd1827;
+                    }
+                    em {
+                        color: #dd1827;
+                        font-style: normal;
+                    }
+                }
+            }
+            .rt_search {
+                width: 236px;
+                float: right;
+                margin-top: 5px;
+                input {
+                    display: block;
+                    float: left;
+                    box-sizing: border-box;
+                    height: 28px;
+                    font-size: 12px;
+                    &.text {
+                        border: 1px solid #d5d5d5;
+                        width: 180px;
+                        padding: 0 10px;
+                    }
+                    &.sub {
+                        background: url("../../images/ico-search.png") center center no-repeat;
+                        width: 34px;
+                        border: 1px solid #d5d5d5;
+                        border-left: 0;
+                    }
+                }
+            }
+        }
+        .pro_list {
+            .pro_list_hd {
+                border: 1px solid #d5d5d5;
+                background: #f5f5f5;
+                height: 30px;
+                line-height: 30px;
+                li {
+                    float: left;
+                    text-align: center;
+                    &.hd_name {
+                        width: 475px;
+                        padding-left: 15px;
+                        text-align: left;
+                    }
+                    &.hd_price {
+                        width: 85px;
+                    }
+                    &.hd_spcz {
+                        width: 113px;
+                    }
+                    &.hd_sfjg {
+                        width: 115px;
+                    }
+                    &.hd_zt {
+                        width: 100px;
+                    }
+                    &.hd_cz {
+                        width: 127px;
+                    }
+                }
+            }
+            .pro_con {
+                table {
+                    border-collapse: collapse;
+                    font-size: 12px;
+                    margin-top: 10px;
+                    td {
+                        border: 1px solid #e6e6e6;
+                        padding: 15px 0;
+                        color: #666;
+                        text-align: center;
+                        &.pro_title {
+                            background: #f5f5f5;
+                            height: 30px;
+                            line-height: 30px;
+                            padding-left: 15px;
+                            font-size: 12px;
+                            padding: 0 0 0 15px;
+                            text-align: left;
+                            span {
+                                padding-right: 30px;
+                                display: inline-block;
+                                &.shop_name {
+                                    background: url("../../images/kf_icon.png") right center no-repeat;
+                                }
+                            }
+                        }
+                        &.w_name {
+                            width: 475px;
+                            padding-left: 15px;
+                            text-align: left;
+                            img {
+                                border: 1px solid #ddd;
+                                width: 58px;
+                                height: 58px;
+                                display: inline-block;
+                            }
+                            span {
+                                vertical-align: middle;
+                                color: #999;
+                            }
+                            a {
+                                vertical-align: middle;
+                                display: inline-block;
+                                &.name {
+                                    width: 235px;
+                                    display: inline-block;
+                                    padding: 0 18px 0 10px;
+                                }
+                            }
+                        }
+                        &.w_price {
+                            width: 83px;
+                            p {
+                                border-bottom: 1px solid #e6e6e6;
+                                display: block;
+                                padding-top: 30px;
+                                height: 90px;
+                            }
+                        }
+                        &.w_spcz {
+                            width: 112px;
+                            input {
+                                vertical-align: middle;
+                                margin-right: 5px;
+                            }
+                        }
+                        &.w_sfjg {
+                            width: 114px;
+                        }
+                        &.w_zt {
+                            width: 99px;
+                            a {
+                                display: block;
+                            }
+                        }
+                        &.w_cz {
+                            width: 127px;
+                            a {
+                                display: block;
+                            }
+                            .btn {
+                                background: #dd1827;
+                                width: 70px;
+                                height: 28px;
+                                line-height: 28px;
+                                border-radius: 2px;
+                                border: 0;
+                                text-align: center;
+                                color: #fff;
+                                margin: 5px 0;
+                            }
+                        }
+                        &.goodslist{
+                            padding: 0;
+                            table{
+                                margin: 0;
+                                td{
+                                    border-width: 0 1px 1px 0;
+                                    &.w_spcz{
+                                        border-right: 0;
+                                    }
+                                }
+                                tr{
+                                    &:last-child{
+                                        td{
+                                            border-bottom: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .page {
+            text-align: right;
+            font-size: 14px;
+            font-family: arial;
+            margin-top: 30px;
+            a {
+                color: #303030;
+                height: 30px;
+                line-height: 30px;
+                width: 30px;
+                text-align: center;
+                display: inline-block;
+                border-radius: 3px;
+                margin: 0 5px;
+                &.next {
+                    border: 1px solid #d5d5d5;
+                }                             
+                &.prev {
+                    border: 1px solid #d5d5d5;
+                }
+                &.cur {
+                    background: #dd1827;
+                    color: #fff;
+                    cursor: default;
+                }
+                &.zero {
+                    border: none;
+                }
+                .ico_prev {
+                    width: 7px;
+                    height: 12px;
+                    background-image: url("../../images/ico_page.png");
+                    display: inline-block;
+                    background-position: 0 0;
+                }
+                .ico_next {
+                    width: 7px;
+                    height: 12px;
+                    background-image: url("../../images/ico_page.png");
+                    display: inline-block;
+                    background-position: -7px 0;
+                }    
+            }
+            
+            .page_text_box {
+                color: #303030;
+                padding: 0 10px;
+                height: 30px;
+                line-height: 30px;
+                display: inline-block;
+                .page_text {
+                    width: 38px;
+                    height: 22px;
+                    padding: 0 5px;
+                    border: 1px solid #d5d5d5;
+                    background: url("../../images/page_text.png") 30px center no-repeat;
+                    margin: 0 3px;
+                }
+            }
+        }
+    }
+}

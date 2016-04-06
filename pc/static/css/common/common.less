@@ -408,6 +408,11 @@ p {
                     left: 0;
                     top: 0;
                     z-index: 18;
+                    &.hide-list{
+                        .lists{
+                           display: none; 
+                        }
+                    }
                     span {
                         display: block;
                         font-size: 18px;
@@ -650,6 +655,145 @@ p {
                     img {
                         width: 170px;
                     }
+                }
+            }
+        }
+        .about {
+            padding: 20px 0 35px;
+            p {
+                text-align: center;
+                margin: 0;
+                line-height: 32px;
+                &:first-child {
+                    padding: 10px 0;
+                }
+                a {
+                    font-size: 16px;
+                    display: inline-block;
+                    *display: inline;
+                    *zoom: 1;
+                    padding: 0 30px;
+                }
+            }
+        }
+    }
+    .pcs-footer-new{
+        margin-top: 60px;
+        background: #f0f0f0;
+        padding: 32px 0;
+        .footInner{
+            margin:0 auto; 
+            overflow:hidden; 
+            zoom:1;
+            .code_box{
+                width:295px; 
+                height:120px; 
+                float:left;
+                span{
+                    display:block;
+                    &.code_text{
+                        width:200px; 
+                        height:120px; 
+                        float:left; 
+                        margin-left:10px;
+                        font-size: 12px; 
+                        color:#585858;
+                        .company_name{
+                            height:73px; 
+                            line-height:15px; 
+                            border-bottom: #d7d7d7 solid 1px;
+                        }
+                        .company_tel{
+                            color:#585858; 
+                            height:40px; 
+                            margin-top:10px; 
+                            line-height:18px;
+                            font{
+                                font-weight:bold; 
+                                font-size:14px;
+                            }
+                        }
+                    }
+                }
+            }
+            .links_box{
+                height:120px; 
+                width:130px; 
+                float:left; 
+                margin-left:48px; 
+                color:#585858; 
+                font-size:12px;
+                span{
+                    display:block; 
+                    font-size:12px; 
+                    font-weight:bold;
+                }
+                ul{
+                    line-height:22px; 
+                    margin-top:7px; 
+                    margin-left:0px; 
+                    padding-left:0px; 
+                    list-style:none;
+                }
+            }           
+        }      
+        .slogan_box{
+            height:98px; 
+            margin:60px auto 0 auto;
+            background:url(../../images/footer_new/footImg01.jpg) center center no-repeat;
+            .sloganicon{
+                background-position:0 20px; 
+                background-repeat:no-repeat; 
+                height:98px;
+                padding-left:80px; 
+                float:left; 
+                margin-left:80px; 
+                line-height:98px; 
+                font-size:18px; 
+                font-family:Microsoft yahei;
+            }
+            .sloganicon01{
+                background-image:url(../../images/footer_new/footicon01.jpg);
+            }
+            .sloganicon02{
+                background-image:url(../../images/footer_new/footicon02.jpg);
+            }
+            .sloganicon03{
+                background-image:url(../../images/footer_new/footicon03.jpg);
+            }
+            .sloganicon04{
+                background-image:url(../../images/footer_new/footicon04.jpg);
+            }
+            .sloganicon05{
+                background-image:url(../../images/footer_new/footicon05.jpg);
+            }
+        }
+        .bank_list{
+            margin:20px auto 0 auto; 
+            text-align:center;
+            a{
+                width:105px; 
+                display:inline-block; 
+                height:35px; 
+                background:#fff; 
+                padding:0; 
+                margin-right:2px;
+                border:1px solid #ccc; 
+                font-size:12px; 
+                vertical-align:middle;
+                img{
+                    width:35px; 
+                    height:35px; 
+                    float:left;
+                }
+                b{
+                    display:inline-block;
+                    width:70px; 
+                    margin-top:2px;
+                    text-align:center; 
+                    height:35px; 
+                    line-height:15px;
+                    font-weight:normal;
                 }
             }
         }
