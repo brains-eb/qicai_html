@@ -600,8 +600,7 @@
 						<!--页码-->
 						<div class="page">
 							<a class="prev zero"><i class="ico_prev"></i></a><a class="cur" href="#?page=2">1</a><a href="#?page=2">2</a><a href="#?page=3">3</a><a href="#?page=4">4</a><a href="#?page=5">5</a><a href="#?page=6">6</a><a href="#?page=7">7</a>...<a href="#?page=10">10</a>
-							<a
-								href="#?page=2" class="next"><i class="ico_next"></i></a><span class="page_text_box">到<input type="text" class="page_text">页</span>
+							<a href="#?page=2" class="next"><i class="ico_next"></i></a><span class="page_text_box">到<input type="text" class="page_text">页</span>
 						</div>
 					</div>
 				</div>
@@ -710,10 +709,59 @@
 						<img style="width:105px;" border="0" alt="深圳市市场监督管理局企业主体身份公示" src="../static/images/footer_new/cxrz5.png">
 					</a>
 				</div>
+			</div>
+		</div>
+		
+		<!--取消订单弹出层-->
+		<div class="pop_up">
+			<div class="hd">取消订单（未收货）<span class="icon_close"><img src="../static/images/ico_close.png"></span></div>
+			<div class="pop_up_con">
+				<ul>
+					<li>
+						<span class="name">取消原因：</span>
+						<div class="rt_box">
+							<div class="select_con">送货时间长</div>
+							<div class="select_list" style="display:none;">
+								<span>未收到货</span>
+								<span>商品价格太高</span>
+								<span>送货时间长</span>
+								<span>重复下单</span>
+							</div>
+						</div>
+					</li>
+					<li>
+						<span class="name">姓名：</span>
+						<div class="rt_box"><input type="text" class="input_text"></div>
+					</li>
+					<li>
+						<span class="name">联系电话：</span>
+						<div class="rt_box"><input type="text" class="input_text"></div>
+					</li>
+				</ul>
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td width="30%">支付明细</td>
+						<td>返款方式</td>
+					</tr>
+					<tr>
+						<td>支付宝&nbsp;&nbsp;&nbsp;￥75.00</td>
+						<td class="text_left">积分、余额将原返至您的账户，手机红包将原返至手机账户，其他请具体查看取消订单说明。</td>
+					</tr>
+				</table>
+				<div class="tips">
+					<p class="title">温馨提示：</p>
+					<p>· 订单成功取消后无法恢复</p>
+					<p>· 该订单已付金额将返还银行卡/京东账户</p>
+					<p>· 拆单后取消订单，使用的京券和东券将不再返还</p>
+				</div>
+				<div class="btn_box">
+					<input type="button" class="btn_ok" value="确定取消"><input type="button" class="btn_cancle" value="放弃取消">
+				</div>
 
 			</div>
 		</div>
-
+		<!--遮罩层-->
+		<div class="mask"></div>
 	</body>
 
 </html>

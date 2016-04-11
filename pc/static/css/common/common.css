@@ -65,6 +65,9 @@ p {
   margin: 0;
   padding: 0;
 }
+em {
+  font-style: normal;
+}
 /*公共样式*/
 .pcs-container {
   width: 100%;
@@ -334,6 +337,7 @@ p {
 .pcs-container .pcs-header .header-content .cart .cart_list .mOrder .tAmount .tOff:hover {
   color: #eee;
   cursor: not-allowed;
+  border-color: #dbdbdb;
 }
 .pcs-container .pcs-header .header-content .cart .cart_list .mOrder .tOps {
   text-align: center;

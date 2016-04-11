@@ -35,7 +35,7 @@
 		$(this).parents('.mOrder').remove();
 	});
 	
-	//
+	//切换订单分类
 	$(".left_tabs span").click(function(){
 		var $this = $(this);
 		var type = $this.data("type");
@@ -54,4 +54,27 @@
 		
 	});
 	
+	//列表头部的切换
+	$(".tabs_box .left_tabs span").click(function(){
+		$(this).addClass("cur").siblings().removeClass("cur")
+	});
+	
+	//取消订单弹窗
+	$(".w_cz a").click(function(){
+		$(".mask").show();
+		$(".pop_up").show();				
+	});
+	$(".select_con").click(function(){
+		$(this).toggleClass("icon_down");
+		$(this).next().toggle();
+		$(".select_list span").click(function(){
+			$(".select_con").text($(this).text());
+			$(".select_list").hide();
+			$(".select_con").removeClass("icon_down");
+		});
+	});
+	$(".icon_close , .btn_cancle").click(function(){
+		$(".pop_up").hide();
+		$(".mask").hide();
+	})
 })
