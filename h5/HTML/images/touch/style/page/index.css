@@ -1,0 +1,62 @@
+/* KV */
+.kvSlider, .section1 {}
+.kvSlider .slides li > a {position: relative; width: 100%; display: block;}
+.kvSlider li p {position: absolute; width: 100%; text-align: center; color: #fff; font-size: 32px; bottom: 55px;}
+
+/* kvSlider Direction Nav */
+.kvSlider .flex-direction-nav {}
+.kvSlider .flex-direction-nav  .flex-prev:hover, #wSlider .flex-direction-nav  .flex-next:hover {opacity: .7;}
+.kvSlider .flex-direction-nav .flex-prev {background: url(../images/sprite.png) no-repeat 0 0px; width: 22px; height: 60px; display: inline-block; left: 0; top: 50%; margin-top: -30px; position: absolute;}
+.kvSlider .flex-direction-nav .flex-next {background: url(../images/sprite.png) no-repeat -21px 0px; width: 22px; height: 60px;display: inline-block; right: 0; top: 50%; margin-top: -30px; position: absolute;}
+
+
+/* section1 */
+.section1 {text-align: center;}
+.newest {margin: 0 auto;}
+.newest li {width: 278px; margin: 0 5px 10px; display: none;}
+.newest li.show {display: inline-block;}
+
+/* section2 */
+.section2 {text-align: center;}
+.latestevent {margin: 0 auto;}
+.latestevent li {width: 278px; margin: 0 5px 10px; display: none;}
+.latestevent li.show {display: inline-block;}
+
+/* section3 */
+.section3 {text-align: center;}
+.oriList {margin: 0 auto;}
+.oriList li {width: 278px; display:inline-block; margin: 0 5px 10px; font-size: 14px; color: #1d1f20; line-height: 1.8;}
+.oriList a {display: block;}
+.oriList .prodName {color: #1d1f20; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.oriList .price span {color: #0099da}
+
+/* section4 */
+.section4 {text-align: center;}
+.lifeList {margin: 0 auto;}
+.lifeList li {width: 278px; display:inline-block; margin: 0 5px 10px; font-size: 14px; color: #1d1f20; line-height: 1.8;}
+.lifeList a {display: block;}
+.lifeList .prodName {color: #1d1f20; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.lifeList .price span {color: #0099da}
+
+/* section5 */
+.section5 {background: #e0e4e7;}
+.section5 img {padding-top: 35px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
