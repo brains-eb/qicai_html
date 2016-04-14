@@ -1,0 +1,144 @@
+@charset "utf-8"; 
+// 主色调
+@main-color: #dd1827;
+@main-deep-color: #b41521;
+@main-light-color: #e34449; 
+// 文字默认颜色\大小
+@font-color: #666666;
+@font-size: 14px; 
+// 页面背景
+@bg-color: #fff; 
+//页面主体宽度
+@page-width: 1200px; 
+//首页主体部分
+.pcs-content {
+    border-top: @main-deep-color 2px solid;
+    .bread_crumbs {
+        font-size: 12px;
+        padding: 12px 0;
+        .f16 {
+            font-size: 16px;
+        }
+    }
+    .page {
+        text-align: right;
+        font-size: 14px;
+        font-family: arial;
+        margin-top: 30px;
+        a {
+            color: #303030;
+            height: 30px;
+            line-height: 30px;
+            width: 30px;
+            text-align: center;
+            display: inline-block;
+            border-radius: 3px;
+            margin: 0 5px;
+            &.next {
+                border: 1px solid #d5d5d5;
+            }
+            &.prev {
+                border: 1px solid #d5d5d5;
+            }
+            &.cur {
+                background: #dd1827;
+                color: #fff;
+                cursor: default;
+            }
+            &.zero {
+                border: none;
+            }
+            .ico_prev {
+                width: 7px;
+                height: 12px;
+                background-image: url("../../images/ico_page.png");
+                display: inline-block;
+                background-position: 0 0;
+            }
+            .ico_next {
+                width: 7px;
+                height: 12px;
+                background-image: url("../../images/ico_page.png");
+                display: inline-block;
+                background-position: -7px 0;
+            }
+        }
+        .page_text_box {
+            color: #303030;
+            padding: 0 10px;
+            height: 30px;
+            line-height: 30px;
+            display: inline-block;
+            .page_text {
+                width: 38px;
+                height: 22px;
+                padding: 0 5px;
+                border: 1px solid #d5d5d5;
+                background: url("../../images/page_text.png") 30px center no-repeat;
+                margin: 0 3px;
+            }
+        }
+    }
+}
+/* 右侧漂浮菜单 */
+.float_nav {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.float_nav a {
+    min-width: 56px;
+    height: 56px;
+    margin-bottom: 2px;
+    color: #fff;
+    display: block;
+    position: relative;
+}
+.float_nav a i {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url("../../images/float_nav_ico.png");
+    background-repeat: no-repeat;
+    background-color: #666;
+    z-index: 2;
+    position: relative;
+}
+.float_nav a i.ico_cart {
+    background-position: 0 0;
+}
+.float_nav a i.ico_collect {
+    background-position: 0 -56px;
+}
+.float_nav a i.ico_history {
+    background-position: 0 -112px;
+}
+.float_nav a i.ico_kf {
+    background-position: 0 -168px;
+}
+.float_nav a i.ico_back {
+    background-position: 0 -224px;
+}
+.float_nav a em {
+    position: absolute;
+    left: 56px;
+    top: 0;
+    transition: left 0.3s ease-in-out 0.1s;
+    border-radius: 3px 0 0 3px;
+    padding: 0 0 0 10px;
+    height: 56px;
+    line-height: 56px;
+    display: inline-block;
+    width: 104px;
+    background: #666;
+    z-index: 1;
+    font-size: 18px;
+}
+.float_nav a:hover i {
+    background-color: #dd1827;
+}
+.float_nav a:hover em {
+    left: -100px;
+    background: #dd1827;
+}
