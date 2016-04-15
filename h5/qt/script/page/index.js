@@ -1,4 +1,4 @@
-; (function ($) {
+$(function(){ 
 
     $.index = $.index || {};
     $.index = {
@@ -52,6 +52,6 @@
         //初始化
         $.index.inits();
     });
-
-})(jQuery);
+	
+}); 
 

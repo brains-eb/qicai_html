@@ -1,5 +1,4 @@
-; (function ($) {
-
+$(function(){ 
     $.index = $.index || {};
     $.index = {
 
@@ -54,5 +53,5 @@
         $.index.inits();
     });
 
-})(jQuery);
-
+	
+}); 
