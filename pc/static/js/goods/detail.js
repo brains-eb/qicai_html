@@ -1,4 +1,4 @@
-﻿$(document).ready(function(){
+$(document).ready(function(){
     $('.bs-slide').bxSlider({
         pagerCustom: '#bx-pager',
         auto: 1,
@@ -6,7 +6,7 @@
         infiniteLoop: false,
     });
 });
-    
+
 $(function(){
 	//关于我们
 	$(".about_us").hover(function(){
@@ -43,7 +43,7 @@ $(function(){
 	$(".tDel").click(function(){
 		$(this).parents('.mOrder').remove();
 	});
-	
+
 	//轮播图左右按钮操作
 	var len = $("#bx-pager a").length;
 	$("#bx-pager").css("width",90*len);
@@ -73,7 +73,6 @@ $(function(){
 			}
 			return false;
 		}
-		
 	})
 		
 })

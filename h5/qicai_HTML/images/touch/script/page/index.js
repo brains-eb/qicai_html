@@ -1,10 +1,3 @@
-/**
- * @Name:			index.js
- * @Introduction:	VW首页js
- * @Author：
- * @Time:			2015-07-04 10:30
- */
-
 ; (function ($) {
 
     $.index = $.index || {};
@@ -26,18 +19,28 @@
 				prevText: '',
 				nextText: ''
 			});
-			
-			$('.section1 .loadMore').click(function(){
-				$('.newest li').addClass('show');
-				$(this).hide();
+			$('.os_slider').flexslider({
+				animation: "slide",
+				slideshow: true,
+				directionNav: true,
+				controlNav: true,
+				animationLoop: true,
+                minItems: 3,
+                maxItems: 3,
+                itemWidth: 192,
+				prevText: '',
+				nextText: ''
 			});
-			
-			$('.section2 .loadMore').click(function(){
-				$('.latestevent li').addClass('show');
-				$(this).hide();
+			$('.search_box input').focus(function(){
+				$(this).parent().addClass('focused');
 			});
-			
-			
+			$('.search_box').click(function(){
+				$(this).addClass('focused');
+				$(this).find("input").focus();
+			});
+			$('.search_box input').blur(function(){
+				$(this).parent().removeClass('focused');
+			});
 		}
 
     };
