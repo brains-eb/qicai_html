@@ -161,13 +161,20 @@
                     background: #f4f4f4;
                     border: 1px solid #e6efed;
                     padding: 12px;
+                    margin: 10px 0 16px;
                 }
                 dl {
                     margin: 0;
-                    padding: 0 0 0 22px;
-                    line-height: 30px;
+                    padding: 7px 0;
+                    line-height: 28px;
                     font-size: 14px;
                     color: #666;
+                    &:nth-last-of-type(1){
+                        padding-top: 0;
+                    }
+                    &:nth-last-of-type(2){
+                        padding-bottom: 0;
+                    }
                     dt {
                         float: left;
                     }
@@ -176,67 +183,86 @@
                         padding-left: 72px;
                         a {
                             display: inline-block;
-                            width: 78px;
-                            border: 1px solid #f3f3f4;
                             text-align: center;
-                            margin-right: 10px;
+                            margin-right: 15px;
+                            line-height: 26px;
+                            border: 2px solid #ddd;
                             color: #666;
-                        }
-                        .num {
-                            input {
-                                display: block;
-                                float: left;
-                                width: 45px;
-                                height: 45px;
-                                border: 1px solid #f3f3f4;
-                                text-align: center;
-                                line-height: 45px;
-                                padding: 0;
-                                margin: 0;
+                            padding: 0 10px;
+                            margin-bottom: 20px;
+                            &.active{
+                                border-color: #dd1827;
+                                position: relative;
+                                i{
+                                    position: absolute;
+                                    width: 16px;
+                                    height: 16px;
+                                    right: -2px;
+                                    bottom: -2px;
+                                    background: url(../../images/cur_ico.png) no-repeat;  
+                                }
+                               
                             }
-                            span {
-                                display: block;
-                                width: 22px;
-                                height: 22px;
-                                border: solid #f3f3f4;
-                                border-width: 1px 1px 1px 0;
-                                text-align: center;
-                                line-height: 22px;
-                                color: #797979;
-                                cursor: pointer;
-                                &:nth-of-type(1) {
-                                    border-width: 1px 1px 0 0;
+                        }
+                        span{
+                            
+                        }
+                        .num{
+                            .tAmount {
+                                float: left;
+                                .tAmountVal,
+                                .tMinus,
+                                .tPlus {
+                                    display: block;
+                                    float: left;
+                                    cursor: pointer;
+                                    padding: 0;
+                                    border: 1px solid #ccc;
+                                    width: 26px;
+                                    height: 26px;
+                                    overflow: hidden;
+                                    outline: 0;
+                                    vertical-align: middle;
+                                    line-height: 26px;
+                                    font-size: 14px;
+                                    margin: 0;
+                                }
+                                .tAmountVal {
+                                    width: 48px;
+                                    border-width: 1px 0;
+                                    text-align: center;
+                                    cursor: text;
+                                }
+                                .tMinus,
+                                .tPlus {
+                                    color: #999;
+                                    background: #ededed;
+                                }
+                                .tMinus:hover,
+                                .tPlus:hover {
+                                    color: #333333;
+                                    border-color: #9b9b9b;
+                                }
+                                .tOff,
+                                .tOff:hover {
+                                    color: #ccc;
+                                    cursor: not-allowed;
+                                    border-color: #dbdbdb;
                                 }
                             }
-                            em {
-                                font-style: normal;
-                                display: inline-block;
-                                padding-left: 10px;
-                            }
-                            i {
-                                font-style: normal;
+                            em{
+                                padding-left: 20px;
+                                i{
+                                    font-style: normal;
+                                }
                             }
                         }
-                    }
-                    &:nth-last-of-type(1) {
-                        padding: 16px 0 10px 22px;
-                        dt {
-                            padding-top: 9px;
-                        }
-                        dd {
-                            em {
-                                padding-top: 9px;
-                            }
-                        }
-                    }
-                    &:nth-last-of-type(2) {
-                        padding: 8px 0 0 22px;
                     }
                 }
                 .btns {
                     font-size: 18px;
                     line-height: 45px;
-                    padding: 12px 0 0 96px;
+                    padding: 12px 0 0;
                     a {
                         display: inline-block;
                         width: 181px;
@@ -254,95 +280,162 @@
                     }
                 }
             }
+            .shopinfo{
+                img{
+                    border: 1px solid #ddd;
+                    width: 168px;
+                    height: 64px;
+                }
+                span{
+                    display: block;
+                    line-height: 36px;
+                    text-align: center;
+                }
+                a{
+                    display: block;
+                    line-height: 42px;
+                    padding-left: 75px;
+                    margin-top: 30px;
+                    background: url("../../images/kf-icon-b.png") no-repeat;
+                    background-position: 30px 0;
+                }
+            }
         }
         .goodsrecommend {
             margin-top: 20px;
             h3 {
                 margin: 0;
-                font-size: 14px;
-                line-height: 48px;
-                background: #fafafa;
-                border: 1px solid #f3f3f4;
-                padding-left: 20px;
+                font-size: 22px;
+                line-height: 38px;
+                border-bottom: 2px solid #19a7df;
+                padding-left: 28px;
                 font-weight: normal;
+                background: url(../../images/tj_title-bg.png) no-repeat;
             }
             .recommend-list {
-                border: solid #f3f3f4;
-                border-width: 0 1px 1px 1px;
-                padding: 20px 18px 15px 19px;
+                padding: 10px 0 20px;
                 .m-recommend {
-                    width: 170px;
+                    width: 193px;
+                    border: 1px solid #e9e9e9;
                     float: left;
-                    margin-right: 30px;
+                    margin-right: 6px;
                     &:last-child {
                         margin: 0;
+                    }
+                    img{
+                        width: 193px;
+                        height: 193px;
+                    }
+                    h4{
+                        margin: 0;
+                        line-height: 22px;
+                        font-size: 12px;
+                        font-weight: normal;
+                        padding: 0 10px;
+                    }
+                    p{
+                        color: @main-color;
+                        font-size: 16px;
+                        line-height: 30px;
+                        padding: 0 10px 10px;
                     }
                 }
             }
         }
         .goods-left {
             float: left;
-            width: 229px;
-            .hots {
-                margin-bottom: 20px;
+            width: 249px;
+            .m-left{
+                margin-bottom: 10px;
+                border: 1px solid #ddd;
+                border-top: 2px solid @main-color;
                 h4 {
-                    background: #fafafa;
-                    line-height: 48px;
+                    background: #efefef;
+                    line-height: 40px;
                     margin: 0;
-                    padding-left: 19px;
+                    padding-left:8px;
                     border: 1px solid #f3f3f4;
-                    font-size: 14px;
+                    font-size: 16px;
                     font-weight: normal;
                 }
+                ul{
+                    padding: 6px 15px;
+                    li{
+                        line-height: 20px;
+                        font-size: 12px;
+                    }
+                }
                 .m-pro {
-                    border: solid #f3f3f4;
-                    border-width: 0 1px 1px 1px;
-                    padding: 8px 25px 9px 20px;
+                    border-bottom: solid #f3f3f4 1px;
+                    &:last-child{
+                        border: 0;
+                    }
                     img {
-                        float: left;
-                        margin-right: 10px;
+                        width:247px;
+                        height: 247px;
                     }
                     h5 {
                         margin: 0;
-                        line-height: 18px;
+                        line-height: 22px;
                         font-weight: normal;
-                        height: 36px;
+                        height: 44px;
                         overflow: hidden;
-                        padding-top: 10px;
+                        padding:0 10px;   
+                        font-size: 14px;                   
                     }
-                    span {
-                        color: #e6131b;
-                        font-size: 14px;
+                    p{
+                        color: @main-color;
+                        font-size: 18px;
+                        line-height: 28px;
+                        padding: 0 10px 10px;
+                    }
+                }
+                .m-his{
+                    padding: 15px 9px;
+                    border-bottom: solid #f3f3f4 1px;
+                    &:last-child{
+                        border: 0;
+                    }
+                    img{
+                        float: left;
+                        width: 60px;
+                        height: 60px;
+                        margin-right: 8px;
+                    }
+                    h5{
+                        line-height: 18px;
+                        font-size: 12px;
+                        margin: 0;
+                        font-weight: normal;
+                        height: 40px;
+                        overflow: hidden;
+                    }
+                    p{
+                       color: @main-color;
+                        font-size: 18px;
                         line-height: 20px;
-                        display: block;
-                        padding-top: 6px;
                     }
                 }
             }
         }
         .goods-right {
             float: right;
-            width: 961px;
+            width: 941px;
             margin-bottom: 20px;
             .titles {
                 margin: 0;
-                background: #fafafa;
-                position: relative;
-                height: 46px;
-                border: 1px solid #f3f3f4;
-                border-bottom: 2px solid @main-color;
+                background: #efefef;              
+                border-top: 2px solid @main-color;
                 ul {
                     margin: 0;
-                    position: absolute;
-                    line-height: 47px;
-                    top: -1px;
-                    left: -1px;
+                    line-height: 42px;
                     padding: 0;
-                    li {
+                    li { 
+                        position: relative;
                         float: left;
                         list-style: none;
-                        padding: 0 20px;
-                        font-size: 14px;
+                        padding: 0 25px;
+                        font-size: 16px;
                         &.cur {
                             background: @main-color;
                             a {
@@ -353,30 +446,22 @@
                 }
             }
             .conts {
-                border: 1px solid #f3f3f4;
                 padding: 0;
                 .details {
-                    margin: 10px;
-                    background: #fafafa;
-                    padding: 15px 42px;
-                    display: none;
+                    padding: 10px 20px;
+                    display: block;
                     dl {
                         margin: 0;
                         float: left;
-                        font-size: 14px;
+                        font-size: 12px;
                         line-height: 30px;
-                        width: 555px;
-                        &:nth-of-type(2n) {
-                            width: 300px;
-                        }
+                        min-width: 300px;
                         dt {
                             float: left;
                         }
                         dd {
                             margin: 0;
-                        }
-                        &:last-child {
-                            width: 555px;
+                            float: left;
                         }
                     }
                 }
@@ -437,7 +522,7 @@
                     }
                 }
                 .questions {
-                    display: block;
+                    display: none;
                     .m-que {
                         padding: 25px 26px 8px;
                         h4 {
@@ -461,66 +546,4 @@
             }
         }
     }
-}
-/* 右侧漂浮菜单 */
-.float_nav {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: 999;
-}
-.float_nav a {
-    min-width: 56px;
-    height: 56px;
-    margin-bottom: 2px;
-    color: #fff;
-    display: block;
-    position: relative;
-}
-.float_nav a i {
-    display: inline-block;
-    width: 56px;
-    height: 56px;
-    background-image: url("../../images/float_nav_ico.png");
-    background-repeat: no-repeat;
-    background-color: #666;
-    z-index: 2;
-    position: relative;
-}
-.float_nav a i.ico_cart {
-    background-position: 0 0;
-}
-.float_nav a i.ico_collect {
-    background-position: 0 -56px;
-}
-.float_nav a i.ico_history {
-    background-position: 0 -112px;
-}
-.float_nav a i.ico_kf {
-    background-position: 0 -168px;
-}
-.float_nav a i.ico_back {
-    background-position: 0 -224px;
-}
-.float_nav a em {
-    position: absolute;
-    left: 56px;
-    top: 0;
-    transition: left 0.3s ease-in-out 0.1s;
-    border-radius: 3px 0 0 3px;
-    padding: 0 0 0 10px;
-    height: 56px;
-    line-height: 56px;
-    display: inline-block;
-    width: 104px;
-    background: #666;
-    z-index: 1;
-    font-size: 18px;
-}
-.float_nav a:hover i {
-    background-color: #dd1827;
-}
-.float_nav a:hover em {
-    left: -100px;
-    background: #dd1827;
 }
