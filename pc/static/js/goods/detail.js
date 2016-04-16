@@ -1,10 +1,10 @@
 $(document).ready(function(){
     $('.bs-slide').bxSlider({
         pagerCustom: '#bx-pager',
-        auto: 1,
         pause: 3000,
         infiniteLoop: false,
     });
+    $(".bx-prev").addClass("bx-none");
 });
 
 $(function(){
@@ -62,17 +62,24 @@ $(function(){
 	$(".bx-prev").click(function(){
 		$(".bx-next").removeClass("bx-none");
 		var index = $("#bx-pager .active").index();
-		console.log(index);
 		var num = parseInt($("#bx-pager").css("left"))/-90;
 		if(num > index){
-			$("#bx-pager").css("left",-90*(num-1));
+			$("#bx-pager").css("left",-90*(num-1));			
 			
-		}else{
-			if(index == 0){
-				$(this).addClass("bx-none");
-			}
-			return false;
+		}
+		if(index == 0){
+			$(this).addClass("bx-none");
 		}
 	})
-		
+	$("#bx-pager a").click(function(){
+		if($(this).index() == 0){
+			$(".bx-prev").addClass("bx-none");
+			$(".bx-next").removeClass("bx-none");
+		}else if($(this).index() == len-1){
+			$(".bx-next").addClass("bx-none");
+			$(".bx-prev").removeClass("bx-none");
+		}else{
+			$(".bx-next,.bx-prev").removeClass("bx-none");
+		}
+	});		
 })

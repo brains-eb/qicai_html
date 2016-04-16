@@ -1304,7 +1304,7 @@ $(window).bind('orientationchange', function (e) {
     //adaptUILayout.adapt(640);
 });
 //=============================================================强转==============================
-function orien(){
+/*function orien(){
 	var _horiPrompt=document.createElement("div");
 	_horiPrompt.id="horiPrompt";
 	document.body.appendChild(_horiPrompt);
@@ -1352,4 +1352,4 @@ orien.prototype={
 		};
 	}
 }
-if(window.location.toString().indexOf("BuyTools")<0)new orien();
+if(window.location.toString().indexOf("BuyTools")<0)new orien();*/
