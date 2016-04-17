@@ -61,7 +61,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-p {
+p ,dl dd,h3{
   margin: 0;
   padding: 0;
 }

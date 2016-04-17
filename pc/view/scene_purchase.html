@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+	<head>
+		<meta charset="utf-8">
+		<title>场景采购</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="format-detection" content="telephone=no, email=no">
+		<link rel="stylesheet" href="../static/css/common/common.css" type="text/css" />
+		<link rel="stylesheet" href="../static/css/scene/scene_purchase.css" type="text/css" />
+
+		<!--[if lt IE 9]><script src="../static/js/common/IE9.js"></script><![endif]-->
+		<script src="../static/js/common/jquery-1.10.2.min.js" charset="utf-8"></script>
+        
+        <script type="text/javascript" src="../static/js/jcarousel/jquery.jcarousel.min.js"></script>
+		<script src="../static/js/scene/scene_purchase.js" charset="utf-8"></script>
+
+	</head>
+
+	<body>
+		<div class="pcs-container">
+			<div class="pcs-header">
+				<div class="header-nav">
+					<div class="page1200 clearfix">
+						<div class="location">
+							<i class="fa fa-map-marker"></i>地区：<span>深圳市南山区</span>
+						</div>
+						<div class="nav-login clearfix">
+							<a href="#">您好，请登录</a>
+							<a href="#">免费注册</a>
+						</div>
+						<div class="nav-list">
+							<ul class="clearfix">
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">商家入口</a></li>
+								<li class="about_us">
+									<a href="javascript:void(0)">关注齐采</a>
+									<i class="fa fa-angle-down"></i>
+									<div class="about_info">
+										<img src="../static/images/wechat.jpg" alt="二维码" />
+									</div>
+								</li>
+								<li><a href="#">帮助中心</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="header-content">
+					<div class="page1200 clearfix">
+						<div class="logo">
+							<img src="../static/images/logo.png" alt="" />
+						</div>
+						<div class="search">
+							<input class="text" type="text" id="key" placeholder="输入您要搜索的关键词语" />
+							<input class="sub" type="button" onclick="" value="搜索" />
+							<div class="clear"></div>
+							<div id="homeHotWord" class="key">
+								<a href="#">打印纸</a>
+								<a href="#">名片打印</a>
+								<a href="#">办公文具</a>
+								<a href="#">财务报税</a>
+								<a href="#">法务咨询</a>
+							</div>
+						</div>
+						<div class="cart clearfix">
+							<i class="icon"></i>
+							<span>购物车<em>0</em>件</span>
+							<i class="fa fa-angle-down"></i>
+							<div class="cart_list">
+								<div class="tHeader clearfix">
+									<div class="tItem">商品</div>
+									<div class="tAmount">数量</div>
+									<div class="tPrice">价格</div>
+									<div class="tOps">删除</div>
+								</div>
+								<div class="tBundle">
+									<div class="mOrder clearfix">
+										<a class="tItem" href="#" title="" target="_blank"><img height="40" src="../static/images/pro-img.jpg"></a>
+										<div class="tAmount clearfix">
+											<a href="javascript:void(0)" class="tMinus tOff fa fa-minus"></a>
+											<input class="tAmountVal" type="text" value="1" />
+											<a href="javascript:void(0)" class="tPlus fa fa-plus"></a>
+										</div>
+										<div class="tPrice" title="39.90元">39.90</div>
+										<div class="tOps">
+											<span class="tDel fa fa-close" title="删除"></span>
+										</div>
+									</div>
+									<div class="mOrder clearfix">
+										<a class="tItem" href="#" title="" target="_blank"><img height="40" src="../static/images/pro-img.jpg"></a>
+										<div class="tAmount clearfix">
+											<a href="javascript:void(0)" class="tMinus tOff fa fa-minus"></a>
+											<input class="tAmountVal" type="text" value="1" />
+											<a href="javascript:void(0)" class="tPlus fa fa-plus"></a>
+										</div>
+										<div class="tPrice" title="39.90元">39.90</div>
+										<div class="tOps">
+											<span class="tDel fa fa-close" title="删除"></span>
+										</div>
+									</div>
+									<div class="tEmpty">当前购物车为空</div>
+								</div>
+								<div class="tBotBox">
+									<p class="tTotal">合计：&yen;<strong class="tTotalFee">55.00</strong></p>
+									<p class="tGo"><a class="tCartBtn">去结算</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="menu clearfix">
+						<div class="title-list hide-list">
+							<span>全部分类</span>
+							<div class="lists">
+								<div class="m-list">
+									<i class="fa fa-angle-right"></i>
+									<h4><a href="#">办公用品</a></h4>
+									<p><a href="#">办公文具</a><a href="#">办公用纸</a><a href="#">办公耗材</a><a href="#">办公耗材</a></p>
+									<div class="list-detail">
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="m-list">
+									<i class="fa fa-angle-right"></i>
+									<h4><a href="#">中药养生</a></h4>
+									<p><a href="#">消炎清热</a><a href="#">感冒发烧</a><a href="#">湿热上火</a><a href="#">解热镇痛</a></p>
+									<div class="list-detail">
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="m-list">
+									<i class="fa fa-angle-right"></i>
+									<h4><a href="#">医疗器械</a></h4>
+									<p><a href="#">消炎清热</a><a href="#">感冒发烧</a><a href="#">湿热上火</a><a href="#">解热镇痛</a></p>
+									<div class="list-detail">
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="m-list">
+									<i class="fa fa-angle-right"></i>
+									<h4><a href="#">营养保健</a></h4>
+									<p><a href="#">消炎清热</a><a href="#">感冒发烧</a><a href="#">湿热上火</a><a href="#">解热镇痛</a></p>
+									<div class="list-detail">
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="m-list">
+									<i class="fa fa-angle-right"></i>
+									<h4><a href="#">成人用品</a></h4>
+									<p><a href="#">消炎清热</a><a href="#">感冒发烧</a><a href="#">湿热上火</a><a href="#">解热镇痛</a></p>
+									<div class="list-detail">
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="m-list">
+									<i class="fa fa-angle-right"></i>
+									<h4><a href="#">健康超市</a></h4>
+									<p><a href="#">消炎清热</a><a href="#">感冒发烧</a><a href="#">湿热上火</a><a href="#">解热镇痛</a></p>
+									<div class="list-detail">
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="m-list">
+									<i class="fa fa-angle-right"></i>
+									<h4><a href="#">健康超市</a></h4>
+									<p><a href="#">消炎清热</a><a href="#">感冒发烧</a><a href="#">湿热上火</a><a href="#">解热镇痛</a></p>
+									<div class="list-detail">
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="m-list">
+									<i class="fa fa-angle-right"></i>
+									<h4><a href="#">健康超市</a></h4>
+									<p><a href="#">消炎清热</a><a href="#">感冒发烧</a><a href="#">湿热上火</a><a href="#">解热镇痛</a></p>
+									<div class="list-detail">
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<dl>
+											<dt>办公文具</dt>
+											<dd><a href="#">文具0</a></dd>
+											<dd><a href="#">文具1</a></dd>
+											<dd><a href="#">文具2</a></dd>
+											<dd><a href="#">文具3</a></dd>
+										</dl>
+										<div class="clear"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<ul class="clearfix">
+							<li class="cur"><a href="#">首页</a></li>
+							<li><a href="#">场景采购</a></li>
+							<li><a href="#">促销商品</a></li>
+							<li><a href="#">热门服务</a></li>
+							<li><a href="#">服务商入驻</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--页面主体部分-->
+			<div class="pcs-content">                      	
+                <div class="page1200 clearfix">
+					<!--面包屑-->
+					<div class="bread_crumbs">
+						<b class="f16">场景采购</b> > <a>办公区</a>
+					</div>
+                    
+                    <div class="sp_container">
+                    	
+                        <div class="sp_side">
+                        	<ul>
+                            	<li><a href="#">办公区</a></li>
+                            	<li><a href="#">会议试</a></li>
+                            	<li><a href="#">茶水间</a></li>
+                            	<li><a href="#">洗手间</a></li>
+                            	<li><a href="#">前台</a></li>
+                            	<li><a href="#">新员工配件</a></li>
+                            </ul>
+                        </div>
+                        <div class="sp_main">
+                        	<div class="sp_banner">
+                            	<a href="#"><img src="../static/images/sp_banner.jpg" width="945" height="279"/></a>
+                            </div>
+                            <div class="sp_floor">
+                            	<h3 class="title t1">打印耗材</h3>
+                                <div class="sp_floor_cnt">
+                                	<div class="sp_choose">
+                                    
+                                    	<div class="jcarousel-wrapper">
+                                        <div class="jcarousel">
+                                             <ul>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                              </ul>
+                                        </div>
+                        
+                                        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                                        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="sp_cal">
+                                    	<div class="sp_cal_cnt">
+											<dl>
+                                            	<dt>共选5件商品</dt>
+                                                <dd>总价：<b>￥98.88</b></dd>
+                                                <dd class="qjs">
+                                                	<input class="quick_checkout" type="button" value="去结算">
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="sp_floor">
+                            	<h3 class="title t2">文件管理</h3>
+                                <div class="sp_floor_cnt">
+                                	<div class="sp_choose">
+                                    
+                                    	<div class="jcarousel-wrapper">
+                                        <div class="jcarousel">
+                                             <ul>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                              </ul>
+                                        </div>
+                        
+                                        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                                        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="sp_cal">
+                                    	<div class="sp_cal_cnt">
+											<dl>
+                                            	<dt>共选5件商品</dt>
+                                                <dd>总价：<b>￥98.88</b></dd>
+                                                <dd class="qjs">
+                                                	<input class="quick_checkout" type="button" value="去结算">
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="sp_floor">
+                            	<h3 class="title t3">办公工具</h3>
+                                <div class="sp_floor_cnt">
+                                	<div class="sp_choose">
+                                    
+                                    	<div class="jcarousel-wrapper">
+                                        <div class="jcarousel">
+                                             <ul>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="scene_prod">
+                                                        <a href=""><img src="../static/images/detail-pic-b.jpg" width="193" height="193" /></a>
+                                                        <a href="" class="link">齐采  GP505  水晶中性笔 0.5mm  匹配笔芯R980</a>
+                                                        <p>
+                                                            <span class="price">¥158.00</span>
+                                                            本月销量：146
+                                                        </p>
+                                                        <div class="ljgm">
+                                                            <input class="add_cart" type="button" value="加入购物车">
+                                                        </div>
+                                                    </div>
+                                                    <p class="add">
+                                                        <input type="checkbox"/> 添加
+                                                    </p>
+                                                </li>
+                                              </ul>
+                                        </div>
+                        
+                                        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                                        <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="sp_cal">
+                                    	<div class="sp_cal_cnt">
+											<dl>
+                                            	<dt>共选5件商品</dt>
+                                                <dd>总价：<b>￥98.88</b></dd>
+                                                <dd class="qjs">
+                                                	<input class="quick_checkout" type="button" value="去结算">
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    	
+                    </div>
+                    
+                </div>                
+		  </div>
+
+
+			<!--尾部-->
+			<div class="pcs-footer-new">
+				<div class="footInner page1200">
+					<div class="code_box">
+						<span class="pull-left"><img src="../static/images/footer_new/qrcode72.jpg"></span>
+						<span class="code_text">
+			                	<span class="company_name">齐心商城官方微信服务号<br><br>扫一扫二维码，即刻与齐心亲密互动，可以直接微信客服哦！</span>
+						<span class="company_tel"><font>400-700-8688</font><br>工作日(9:00-18:00)</span>
+						</span>
+					</div>
+					<div class="links_box">
+						<span>购物指南</span>
+						<ul>
+							<li><a href="" target="_blank">授权证书</a></li>
+							<li><a href="" target="_blank">购物流程</a></li>
+							<li><a href="" target="_blank">常见问题</a></li>
+						</ul>
+					</div>
+					<div class="links_box">
+						<span>配送方式</span>
+						<ul>
+							<li><a href="" target="_blank">全国网络</a></li>
+							<li><a href="" target="_blank">签收事项</a></li>
+							<li><a href="" target="_blank">配送服务</a></li>
+						</ul>
+					</div>
+					<div class="links_box">
+						<span>支付方式</span>
+						<ul>
+							<li><a href="" target="_blank">在线支付</a></li>
+							<li><a href="" target="_blank">货到付款</a></li>
+							<li><a href="" target="_blank">公司转账</a></li>
+						</ul>
+					</div>
+					<div class="links_box">
+						<span>售后服务</span>
+						<ul>
+							<li><a href="" target="_blank">取消订单</a></li>
+							<li><a href="" target="_blank">退换货流程</a></li>
+						</ul>
+					</div>
+					<div class="links_box">
+						<span>关于我们</span>
+						<ul>
+							<li><a href="" target="_blank">集团总部</a></li>
+							<li><a href="" target="_blank">全国网络</a></li>
+							<li><a href="" target="_blank">加入齐心</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="slogan_box page1200">
+					<div class="sloganicon sloganicon01">正品保证</div>
+					<div class="sloganicon sloganicon02">专业配送</div>
+					<div class="sloganicon sloganicon03">售后无忧</div>
+					<div class="sloganicon sloganicon04">上市公司</div>
+					<div class="sloganicon sloganicon05">品牌厂家</div>
+				</div>
+
+				<div class="about page1200">
+					<p><a href="#">关于齐采</a>丨<a href="#">联系我们</a>丨<a href="#">商家入驻</a></p>
+					<p>粤ICP备05143967号 增值电信业务经营许可证: 粤B1.B2-20150312</p>
+					<p>Copyright © 2016 深圳齐心集团股份有限公司(002301.SZ) 版权所有</p>
+				</div>
+				<div class="bank_list page1200">
+					<a href="https://merchant.unionpay.com" target="_blank" rel="nofollow">
+						<img border="0" alt="银联特约商户" src="../static/images/footer_new/82003.gif">
+						<b class="br">中国银联<br>特约商户</b>
+					</a>
+					<a href="https://e.alipay.com/" target="_blank" rel="nofollow">
+						<img border="0" alt="支付宝特约商户" src="../static/images/footer_new/82004.gif">
+						<b class="br">支付宝<br>特约商户</b>
+					</a>
+					<a href="https://pay.weixin.qq.com/" target="_blank" rel="nofollow">
+						<img border="0" alt="微信支付特约商户" src="../static/images/footer_new/82002.gif">
+						<b class="br">微信支付<br>特约商户</b>
+					</a>
+					<a href="http://www.sznet110.gov.cn/netalarm/index.jsp" target="_blank" rel="nofollow">
+						<img border="0" alt="深圳网络警察报警平台" src="../static/images/footer_new/816587.gif">
+						<b class="br">深圳网络警<br>察报警平台</b>
+					</a>
+					<a href="http://www.sznet110.gov.cn/webrecord/innernet/Welcome.jsp?bano=4403601900653" target="_blank" rel="nofollow">
+						<img border="0" alt="公共信息安全网络监察" src="../static/images/footer_new/6743671.gif">
+						<b class="br">公共信息安<br>全网络监察</b>
+					</a>
+					<a href="/Promo/Icp" target="_blank" rel="nofollow">
+						<img border="0" alt="经营性网站备案信息" src="../static/images/footer_new/ind36.gif">
+						<b class="br">经营性网站<br>备案信息</b>
+					</a>
+					<a href="http://net.china.cn/chinese/index.htm" target="_blank" rel="nofollow">
+						<img border="0" alt="不良信息举报中心" src="../static/images/footer_new/home_b.gif">
+						<b class="br">不良信息<br>举报中心</b>
+					</a>
+					<a href="http://www.wenming.cn" target="_blank" rel="nofollow">
+						<img border="0" alt="中国文明网传播文明" src="../static/images/footer_new/wmlogo.gif">
+						<b class="br">中国文明网<br>传播文明</b>
+					</a>
+					<a href="http://szcert.ebs.org.cn/ade28099-e557-40e9-b8f1-2c85409bb5d5" target="_blank" rel="nofollow">
+						<img border="0" alt="深圳市市场监督管理局企业主体身份公示" src="../static/images/footer_new/ebsIcon2.gif">
+						<b class="br">工商网监<br>电子标识</b>
+					</a>
+					<a href="https://ss.knet.cn/verifyseal.dll?sn=e14112544030056384sfmy000000&amp;ct=df&amp;a=1&amp;pa=337337" target="_blank" rel="nofollow">
+						<img style="width:105px;" border="0" alt="深圳市市场监督管理局企业主体身份公示" src="../static/images/footer_new/cxrz5.png">
+					</a>
+				</div>
+
+			</div>
+			<!--/尾部-->
+		</div>
+
+	</body>
+
+</html>
