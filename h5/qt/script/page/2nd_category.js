@@ -1,36 +1,29 @@
 $(function(){ 
-
-	$('.kvSlider').flexslider({
-		animation: "slide",
-		slideshow: true,
-		directionNav: true,
-		controlNav: true,
-		animationLoop: true,
-		prevText: '',
-		nextText: ''
-	});
-	$('.cate_tabs_slider').flexslider({
-		animation: "slide",
-		slideshow: true,
-		directionNav: false,
-		controlNav: false,
-		animationLoop: true,
-        minItems: 5,
-        maxItems: 5,
-        itemWidth: 128,
-        move: 1,
-		prevText: '',
-		nextText: ''
-	});
-	$('.search_box input').focus(function(){
-		$(this).parent().addClass('focused');
-	});
-	$('.search_box').click(function(){
-		$(this).addClass('focused');
-		$(this).find("input").focus();
-	});
-	$('.search_box input').blur(function(){
-		$(this).parent().removeClass('focused');
+	//top search
+	$('.top_search_box .keywords span i').click(function(){
+		$(this).parent().hide();
 	});
 	
+	//sort 
+	$('.sort_by li').click(function(){
+		if($(this).hasClass("active")){
+			$(this).find("em").toggleClass("desend")
+		}
+		else{
+			$(this).addClass("active").siblings().removeClass("active");
+		}
+	});
+
+	//filter 
+	$('.filter li').click(function(){
+		if($(this).hasClass("active")){
+			$(this).removeClass("active");
+			$('.sec_category_header').css("paddingBottom","0");
+		}
+		else{
+			$(this).addClass("active").siblings().removeClass("active");
+			$('.sec_category_header').css("paddingBottom","130px");
+		}
+	});
+
 }); 
