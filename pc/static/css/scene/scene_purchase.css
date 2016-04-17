@@ -20,6 +20,12 @@
 .sp_side ul li{
 	height:38px; line-height:38px; text-align:center; border:1px solid #ddd; border-top:none;
 }
+.sp_side ul li.cur{
+	color:#fff; background-color:#DDDDDD;
+}
+.sp_side ul li.cur a{
+	color:#fff; background-color:#DDDDDD;
+}
 .sp_side ul li a{
 	display:block; color:#999999; font-size:16px;
 }
