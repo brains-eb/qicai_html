@@ -1,0 +1,26 @@
+/* reco products */
+.reco_prods {background: url(../images/ico_diamond.png) no-repeat 50% 0; padding: 30px 0 50px 0; position: relative; margin: 0 15px;}
+.reco_prods.no_ico {background: transparent; padding-top: 20px;}
+.reco_prods .refresh {position: absolute; right: 11px; top: 45px;}
+.reco_prods .refresh a {font-size: 17px; color: #999;}
+
+.recoProd li {display: inline-block; float: left; width: 33.33333%; box-sizing: border-box; padding: 5px; text-align: center;}
+.recoProd li .prodImg {background: #fff; display: block; margin-bottom: 5px; padding: 10px;}
+.recoProd li img {max-width: 100%; height: auto;}
+.recoProd li .prodName {color: #606060; font-size: 20px; line-height: 1.5; }
+.recoProd li .price {color: #e34449; font-size: 24px; font-weight: bold; line-height: 1.5;}
+
+
+/* office stationery products */
+.office_sta_prods {padding: 20px 0; position: relative; margin: 0 0 20px;}
+.office_sta_prods.no_padding {padding: 0;}
+.office_sta_prods li {display: inline-block; float: left; width: 50%; box-sizing: border-box; padding: 8px;}
+.office_sta_prods li > div {background: #fff; padding: 14px; border: 1px solid #ddd;}
+.office_sta_prods li .prodImg {background: #fff; display: block; margin-bottom: 5px; padding: 10px;}
+.office_sta_prods li img {max-width: 100%; height: auto;}
+.office_sta_prods li .prodName {display: inline-block; font-size: 22px; color: #333; line-height: 1.4; text-align: left; padding-bottom: 10px;}
+.office_sta_prods li .price {color: #e34449; font-size: 24px; line-height: 1.5; padding-bottom: 10px;}
+.office_sta_prods li .price span {display: inline-block;}
+.office_sta_prods li .ori_price {font-size: 20px; line-height: 36px; color: #ccc; text-decoration: line-through;}
+.office_sta_prods li .sales_vol {font-size: 20px; color: #666;}
+.office_sta_prods li .add_cart a {display: inline-block; background: #e0121d; height: 36px; line-height: 36px; padding: 0 12px; color: #fff; font-size: 17px; border-radius: 6px;}

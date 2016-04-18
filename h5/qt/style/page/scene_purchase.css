@@ -1,0 +1,22 @@
+
+/* sp_slider */
+.sp_slider {padding: 0 15px; position: relative;}
+.sp_slider li {text-align: center;}
+.sp_slider li > div {padding: 0 5px;}
+.sp_slider li .prodImg {background: #fff; display: block; margin-bottom: 5px; padding: 10px;}
+.sp_slider li img {max-width: 100%; height: auto;}
+.sp_slider li .prodName {color: #606060; font-size: 20px; line-height: 1.5; }
+.sp_slider li .price {color: #e34449; font-size: 24px; font-weight: normal; line-height: 1.5;}
+.sp_slider li em {display: inline-block; width: 28px; height: 28px; background: url(../images/ico_radio_normal.png) no-repeat; margin: 0 auto;}
+.sp_slider li.active em {background: url(../images/ico_radio_active.png) no-repeat;}
+
+.sp_slider_btm {background: #ddd; padding: 15px 30px; margin: 15px 0 30px;}
+.ssb_l {font-size: 20px; color: #999; line-height: 40px;}
+.ssb_l .red {color: #e34449;}
+.btn_checkout a {display: inline-block; height: 40px; line-height: 40px; font-size: 20px; color: #fff; padding: 0 26px; background: #e0121d; border-radius: 6px;}
+
+/* sp_slider Direction Nav */
+.sp_slider .flex-direction-nav {}
+.sp_slider .flex-direction-nav .flex-prev:hover {opacity: .7;}
+.sp_slider .flex-direction-nav .flex-prev {background: url(../images/left_arrow.png) no-repeat; width: 17px; height: 31px; display: inline-block; left: 20px; top: 26%; position: absolute;}
+.sp_slider .flex-direction-nav .flex-next {background: url(../images/right_arrow.png) no-repeat; width: 17px; height: 31px;display: inline-block; right: 20px; top: 26%;  position: absolute;}

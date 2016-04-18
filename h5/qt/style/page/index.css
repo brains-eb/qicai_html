@@ -1,0 +1,49 @@
+
+/* home icos */
+.home_icos {margin: 15px 0 30px;}
+.home_icos li {width: 25%; box-sizing: border-box; display: inline-block; float: left; padding-bottom: 20px;}
+.home_icos li a {display: block; text-align: center;}
+.home_icos li a span {display: block; line-height: 1.8; text-align: center; font-size: 24px; color: #666;}
+
+/* reco products */
+.reco_prods {background: url(../images/ico_diamond.png) no-repeat 50% 0; padding: 30px 0 50px 0; position: relative; margin: 0 15px;}
+.reco_prods.no_ico {background: transparent; padding-top: 20px;}
+.reco_prods .refresh {position: absolute; right: 11px; top: 45px;}
+.reco_prods .refresh a {font-size: 17px; color: #999;}
+
+.recoProd li {display: inline-block; float: left; width: 33.33333%; box-sizing: border-box; padding: 5px; text-align: center;}
+.recoProd li .prodImg {background: #fff; display: block; margin-bottom: 5px; padding: 10px;}
+.recoProd li img {max-width: 100%; height: auto;}
+.recoProd li .prodName {color: #606060; font-size: 20px; line-height: 1.5; }
+.recoProd li .price {color: #e34449; font-size: 24px; font-weight: bold; line-height: 1.5;}
+
+/* office service */
+.office_service {background: url(../images/ico_pen.png) no-repeat 50% 0; padding: 30px 0 40px; position: relative; margin: 0 20px;}
+
+/* os_slider Direction Nav */
+.os_slider .flex-direction-nav  .flex-prev:hover, #wSlider .flex-direction-nav  .flex-next:hover {opacity: .7;}
+.os_slider .flex-direction-nav .flex-prev {width: 22px; height: 60px; display: inline-block; left: 0; top: 50%; margin-top: -30px; position: absolute;}
+.os_slider .flex-direction-nav .flex-next {width: 22px; height: 60px;display: inline-block; right: 0; top: 50%; margin-top: -30px; position: absolute;}
+.os_slider .flex-control-paging li a{background:rgba(210,210,210,.56);}
+.os_slider .flex-control-paging li a:hover,.os_slider .flex-control-paging li a.flex-active{background:#887ac8;}
+.os_slider ul li a {display: block; position: relative; width: 192px; height: 136px;}
+.os_slider ul li a .mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(51,51,51,.7); text-align: center; line-height: 136px; color: #fff; font-size: 18px;}
+
+/* scene purchase @home */
+.scene_pur {background: url(../images/ico_basket.png) no-repeat 50% 0; padding: 30px 0 0; position: relative; margin: 50px 15px 20px;}
+.scenePur li {display: inline-block; float: left; width: 50%; box-sizing: border-box; padding: 5px; text-align: center;}
+.scenePur li a {display: block; position: relative; width: 293px; height: 154px;}
+.scenePur li a .mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../images/scenePur_circle.png) no-repeat 50% 50%; text-align: center; line-height: 136px; color: #fff; font-size: 20px;}
+
+/* hot products */
+.hot_prods {background: url(../images/ico_bulb.png) no-repeat 50% 0; padding: 30px 0; position: relative; margin: 50px 12px 20px;}
+.hot_prods li {display: inline-block; float: left; width: 50%; box-sizing: border-box; padding: 8px;}
+.hot_prods li > div {background: #fff; padding: 14px; border: 1px solid #ddd;}
+.hot_prods li .prodImg {background: #fff; display: block; margin-bottom: 5px; padding: 10px;}
+.hot_prods li img {max-width: 100%; height: auto;}
+.hot_prods li .prodName {display: inline-block; font-size: 22px; color: #333; line-height: 1.4; text-align: left; padding-bottom: 10px;}
+.hot_prods li .price {color: #e34449; font-size: 24px; line-height: 1.5; padding-bottom: 10px;}
+.hot_prods li .price span {display: inline-block;}
+.hot_prods li .ori_price {font-size: 20px; line-height: 36px; color: #ccc; text-decoration: line-through;}
+.hot_prods li .sales_vol {font-size: 20px; color: #666;}
+.hot_prods li .add_cart a {display: inline-block; background: #e0121d; height: 36px; line-height: 36px; padding: 0 12px; color: #fff; font-size: 17px; border-radius: 6px;}
