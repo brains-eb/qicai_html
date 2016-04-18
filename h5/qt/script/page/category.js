@@ -12,5 +12,8 @@ $(function(){
 		$(this).parent().removeClass('focused');
 	});
 	
+	$('.full_height_white').css({height:$(window).height()-178});
+
+	$('.category_tabs').css({height:$(window).height()-178});
 }); 
 
