@@ -315,3 +315,50 @@ h3.title:after {position: absolute; right: -40px; width: 31px; height: 1px; back
 .filter li.active .filter_by {border-radius: 8px 8px 0px 0px; -moz-border-radius: 8px 8px 0px 0px; -webkit-border-radius: 8px 8px 0px 0px; border: 1px solid #ee3434; height: 65px; border-bottom: 1px solid #fff; background: #fff; color: #ee3434;}
 .filter li.active .filter_by em {border-top: none; border-bottom: 10px solid #ee3434;}
 .filter li.active .subcate {display: block;}
+
+/* category search */
+.category_search {height: 90px;}
+.category_search .search_box {background: #fff; border-radius: 8px; color: #999;}
+.category_search .search_box ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #999;
+}
+ .category_search .search_box ::-moz-placeholder { /* Firefox 19+ */
+  color: #999;
+}
+.category_search .search_box :ms-input-placeholder { /* IE 10+ */
+  color: #999;
+}
+.category_search .search_box :-moz-placeholder { /* Firefox 18- */
+  color: #999;
+}
+.category_search .search_box em {background: url(../images/ico_search_gray.png) no-repeat; width: 31px; height: 29px;}
+
+.category_search .search_box input {color: #999;}
+.category_search .search_box.focused {background: #fff;}
+
+
+/* search_box in KV */
+.search_box {position: absolute; width: 95%; left: 2.5%; top: 11px; background: rgba(186,44,34,.8); height: 50px; line-height: 50px; z-index: 9999; border-radius: 25px; text-align: center;}
+.search_box.focused {background: rgba(186,44,34,1);}
+.search_box em {display: inline-block; background: url(../images/ico_search.png) no-repeat; width: 30px; height: 26px; top: 5px; right: 5px; position: relative;}
+.search_box input {background: transparent; border: none; height: 50px; line-height: 50px; color: #fff; font-size: 20px; width: 200px; transition: all .5s ease;}
+.search_box.focused input {width: 500px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
