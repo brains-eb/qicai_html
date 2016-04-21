@@ -20,5 +20,9 @@ $(function(){
 			$(this).parents('.tAmount').find('.tMinus').addClass('tOff');
 		};
 	});
+
+	$('.colors li, .model li').click(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	});
 }); 
 
