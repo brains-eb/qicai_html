@@ -120,6 +120,19 @@ h3.title:after {position: absolute; right: -40px; width: 31px; height: 1px; back
 .footerNav li.nav3.active em, .footerNav li.nav3:hover em {width: 48px; height: 40px; background: url(../images/nav/nav3_active.png) no-repeat;}
 .footerNav li.nav4.active em, .footerNav li.nav4:hover em {width: 40px; height: 40px; background: url(../images/nav/nav4_active.png) no-repeat;}
 
+.footer.fP {width: 640px; height: 84px; padding: 0; margin: 0 auto; left: 50%; margin-left: -320px;}
+.footerP li {display: inline-block; float: left; width: 90px; height: 84px; position: relative;}
+.footerP li a {display: inline-block; width: 90px; height: 84px; text-align: center; float: left;}
+.footerP li a span {display: block; text-align: center; font-size: 14px; color: #666;}
+.footerP li a em {display: inline-block; margin: 12px auto 2px; height: 36px;}
+.footerP li.f_cart i {display: inline-block; position: absolute; top: 5px; right: 10px; background: #ee3434; height: 20px; line-height: 20px; border-radius: 10px; color: #fff; font-size: 14px; padding: 0 5px; text-align: center; min-width: 20px; box-sizing: border-box; font-style: normal;}
+.footerP .f_fav em {width: 36px; background: url(../images/ico_star.png) no-repeat;}
+.footerP .f_cart em {width: 43px; background: url(../images/ico_cart.png) no-repeat;}
+.footerP .f_service em {width: 33px; background: url(../images/ico_service.png) no-repeat;}
+.footerP li.add_to_cart, .footerP li.buy_now {width: 185px;}
+.footerP li.add_to_cart a {width: 185px; background: #666; color: #fff; height: 84px; line-height: 84px; font-size: 24px; text-align: center;}
+.footerP li.buy_now a {width: 185px; background: #ee3434; color: #fff; height: 84px; line-height: 84px; font-size: 24px; text-align: center;}
+
 /* KV */
 .kvSlider {position: relative; text-align: center;}
 .kvSlider .slides li > a {position: relative; width: 100%; display: block;}
