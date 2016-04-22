@@ -133,6 +133,9 @@ h3.title:after {position: absolute; right: -40px; width: 31px; height: 1px; back
 .footerP li.add_to_cart a {width: 185px; background: #666; color: #fff; height: 84px; line-height: 84px; font-size: 24px; text-align: center;}
 .footerP li.buy_now a {width: 185px; background: #ee3434; color: #fff; height: 84px; line-height: 84px; font-size: 24px; text-align: center;}
 
+
+
+
 /* KV */
 .kvSlider {position: relative; text-align: center;}
 .kvSlider .slides li > a {position: relative; width: 100%; display: block;}

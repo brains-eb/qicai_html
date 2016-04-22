@@ -1,0 +1,45 @@
+/* top_bar */
+.top_bar {margin-bottom: 16px; padding: 12px 25px 8px 75px; box-sizing: border-box; height: 60px; background: #fff url(../images/ico_location.png) no-repeat 25px 12px; position: relative;}
+.top_bar .edit {position: absolute; top: 15px; right: 25px; font-size: 18px; color: #666; line-height: 30px;}
+
+/* cart list */
+.cart_list {}
+.cart_list li {background: #fff; margin-bottom: 17px; padding: 0 25px;}
+.shop_bar {border-bottom: 1px solid #f8f8f8; height: 60px; box-sizing: border-box; padding: 12px 0;}
+.shop_bar i {display: inline-block; width: 23px; height: 23px; background: url(../images/ico_tick_blank.png) no-repeat; position: relative; margin-right: 16px; top: 7px; float: left;}
+.shop_bar i.active {background: url(../images/ico_tick_red.png);}
+.shop_name {font-size: 25px; color: #333; line-height: 36px; float: left; margin-right: 26px; display: inline-block;}
+.shop_bar .ico_chat {display: inline-block; background: url(../images/ico_service.png) no-repeat; width: 33px; height: 36px; float: left;}
+.cart_list li ul li {position: relative; padding-right: 0;}
+.cart_list li ul li > div {padding: 24px 0; border-bottom: 1px solid #f5f5f5; position: relative;}
+.cart_list li ul li em {display: inline-block; width: 23px; height: 23px; background: url(../images/ico_tick_blank.png) no-repeat; position: absolute; left: 0; top: 24px;}
+.cart_list li ul li em.active {background: url(../images/ico_tick_red.png);}
+.cart_list li ul li .img {border: 1px solid #e8e8e8; border-radius: 8px; margin: 0 16px;}
+.cart_list .cp {width: 410px;}
+.cart_list .prod_name {font-size: 22px; color: #333; line-height: 34px; top: -6px; margin-bottom: 8px; position: relative;}
+.cart_list .cp .cRow {font-size: 20px; color: #999; line-height: 1.5;}
+.cart_list .cp .price {color: #f44c4c; font-size: 22px;}
+.cart_list .cp .discount {display: inline-block; position: relative; background: #ee3434; font-size: 17px; color: #fff; height: 26px; line-height: 26px; padding: 0 13px 0 10px; margin-left: 35px;}
+.cart_list .cp .discount:before {position: absolute; content: ''; display: inline-block; width: 0; height: 0; border-top: 13px solid transparent; border-bottom: 13px solid transparent; border-right: 15px solid #ee3434; left: -15px;}
+
+.tAmount {position: absolute; right: 0; bottom: 18px; padding: 0; margin: 0; float: left;}
+.tAmount a.tMinus {background: url(../images/ico_minus.png) no-repeat 50% 50%; width: 24px; height: 24px; border: 2px solid #ebedf0; border-radius: 50%; display: inline-block; float: left; padding: 8px;}
+.tAmount a.tPlus {background: url(../images/ico_plus_red.png) no-repeat 50% 50%; width: 24px; height: 24px; display: inline-block; border: 2px solid #ebedf0; border-radius: 50%; float: left; padding: 8px;}
+.tAmount input {border: none; height: 44px; line-height: 44px; width: 32px; display: inline-block; text-align: center; float: left; font-size: 22px; font-weight: bold; color: #333;}
+
+/* footer */
+.footer.fC {width: 640px; height: 84px; padding: 0; margin: 0 auto; left: 50%; margin-left: -320px;}
+.footerC {width: 640px;}
+.footerC li {display: inline-block; height: 84px; position: relative;}
+.footerC li a {display: inline-block; height: 84px; text-align: center; float: left;}
+.fcL span {display: inline-block; height: 84px; line-height: 44px; box-sizing: border-box; padding: 20px 0; font-size: 22px; color: #999;}
+.fcL .select_all {color: #666; padding-left: 25px; padding-right: 36px;}
+.fcL .select_all em {display: inline-block; width: 23px; height: 23px; background: url(../images/ico_tick_blank.png) no-repeat; position: relative; top: 4px; margin-right: 5px;}
+.fcL .select_all.active em {background: url(../images/ico_tick_red.png);}
+.fcL .total i {font-style: normal; color: #ee3434; font-size: 30px; position: relative; bottom: -2px; margin-left: 5px; margin-right: 15px; font-family: 'Arial Narrow', Arial;}
+.footerC li.buy_now a {width: 185px; background: #ee3434; color: #fff; height: 84px; line-height: 84px; font-size: 24px; text-align: center;}
+
+
+
+
+
