@@ -1,7 +1,8 @@
 /* top_bar */
 .top_bar {margin-bottom: 16px; padding: 12px 25px 8px 75px; box-sizing: border-box; height: 60px; background: #fff url(../images/ico_location.png) no-repeat 25px 12px; position: relative;}
-.top_bar .edit {position: absolute; top: 15px; right: 25px; font-size: 18px; color: #666; line-height: 30px;}
-
+.top_bar .btn {position: absolute; top: 15px; right: 25px; font-size: 18px; color: #666; line-height: 30px;}
+.top_bar select {height: 38px; line-height: 38px; border: 1px solid #e6e6e6; border-radius: 6px; padding: 0 10px; position: relative;} 
+.top_bar select:after {position: absolute; top: 0; right: 10px; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 12px solid #000; content: ''; display: inline-block;}
 /* cart list */
 .cart_list {}
 .cart_list li {background: #fff; margin-bottom: 17px; padding: 0 25px;}
@@ -27,6 +28,11 @@
 .tAmount a.tPlus {background: url(../images/ico_plus_red.png) no-repeat 50% 50%; width: 24px; height: 24px; display: inline-block; border: 2px solid #ebedf0; border-radius: 50%; float: left; padding: 8px;}
 .tAmount input {border: none; height: 44px; line-height: 44px; width: 32px; display: inline-block; text-align: center; float: left; font-size: 22px; font-weight: bold; color: #333;}
 
+/* cart empty */
+.cart_empty {text-align: center; padding: 98px 0 0 0; font-size: 24px; color: #b2b2b2;}
+.cart_empty img {display: block; margin: 0 auto 72px;}
+.cart_empty a {display: inline-block; background: #ee5959; width: 170px; height: 50px; line-height: 50px; text-align: center; color: #fff; margin: 35px 0;}
+
 /* footer */
 .footer.fC {width: 640px; height: 84px; padding: 0; margin: 0 auto; left: 50%; margin-left: -320px;}
 .footerC {width: 640px;}
@@ -38,6 +44,8 @@
 .fcL .select_all.active em {background: url(../images/ico_tick_red.png);}
 .fcL .total i {font-style: normal; color: #ee3434; font-size: 30px; position: relative; bottom: -2px; margin-left: 5px; margin-right: 15px; font-family: 'Arial Narrow', Arial;}
 .footerC li.buy_now a {width: 185px; background: #ee3434; color: #fff; height: 84px; line-height: 84px; font-size: 24px; text-align: center;}
+.footerC li.del a {width: 120px; background: #666; color: #fff; height: 84px; line-height: 84px; font-size: 24px; text-align: center;}
+.footerC li.move a {width: 170px; background: #ee8334; color: #fff; height: 84px; line-height: 84px; font-size: 24px; text-align: center;}
 
 
 

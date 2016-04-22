@@ -30,5 +30,8 @@ $(function(){
 			$(this).parents('.tAmount').find('.tMinus').addClass('tOff');
 		};
 	});
+
+	//cart empty
+	$('.cart_empty').css({"height":$(window).height()-196});
 }); 
 
