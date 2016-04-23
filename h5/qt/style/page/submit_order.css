@@ -1,0 +1,56 @@
+/* location info */
+.location_info {background: #fff; margin: 0 0 16px 0; border-top: 16px solid #f6f6f6; padding: 15px 25px 10px;}
+.location_info .title {background: url(../images/ico_location_blue.png) no-repeat 0 4px; padding: 0 0 0 40px; font-size: 25px; height: 40px; color: #333; position: relative;}
+.location_info .title a {position: absolute; right: 0; top: 5px; font-size: 18px; color: #666;}
+.location_info p {position: relative; padding: 0 0 5px 120px; font-size: 22px; line-height: 1.5; color: #333; margin-left: 35px;}
+.location_info p label {width: 115px; color: #666; line-height: 1.5; text-align: right; position: absolute; left: 0; top: 0;}
+
+/* cart list */
+.cart_list {}
+.cart_list li {background: #fff; margin-bottom: 17px; padding: 0 25px;}
+.shop_bar {border-bottom: 1px solid #f8f8f8; height: 60px; box-sizing: border-box; padding: 12px 0;}
+
+
+.shop_bar i.ico_shop {display: inline-block; background: url(../images/ico_shop.png); width: 27px; height: 26px; position: relative; margin-right: 16px; top: 7px; float: left;}
+.order_amount {font-size: 22px; color: #333;}
+
+
+.shop_name {font-size: 25px; color: #333; line-height: 36px; float: left; margin-right: 26px; display: inline-block;}
+.shop_bar .ico_chat {display: inline-block; background: url(../images/ico_service.png) no-repeat; width: 33px; height: 36px; float: left;}
+.cart_list li ul li {position: relative; padding-right: 0;}
+.cart_list li ul li > div {padding: 24px 0; border-bottom: 1px solid #f5f5f5; position: relative;}
+.cart_list li ul li em {display: inline-block; width: 23px; height: 23px; background: url(../images/ico_tick_blank.png) no-repeat; position: absolute; left: 0; top: 24px;}
+.cart_list li ul li em.active {background: url(../images/ico_tick_red.png);}
+.cart_list li ul li .img {border: 1px solid #e8e8e8; border-radius: 8px; margin: 0 16px;}
+.cart_list .cp {width: 410px;}
+.cart_list .prod_name {font-size: 22px; color: #333; line-height: 34px; top: -6px; margin-bottom: 8px; position: relative;}
+.cart_list .cp .cRow {font-size: 20px; color: #999; line-height: 1.5;}
+.cart_list .cp .price {color: #f44c4c; font-size: 22px;}
+.cart_list .cp .discount {display: inline-block; position: relative; background: #ee3434; font-size: 17px; color: #fff; height: 26px; line-height: 26px; padding: 0 13px 0 10px; margin-left: 35px;}
+.cart_list .cp .discount:before {position: absolute; content: ''; display: inline-block; width: 0; height: 0; border-top: 13px solid transparent; border-bottom: 13px solid transparent; border-right: 15px solid #ee3434; left: -15px;}
+
+.tAmount {position: absolute; right: 0; bottom: 18px; padding: 0; margin: 0; float: left;}
+.tAmount a.tMinus {background: url(../images/ico_minus.png) no-repeat 50% 50%; width: 24px; height: 24px; border: 2px solid #ebedf0; border-radius: 50%; display: inline-block; float: left; padding: 8px;}
+.tAmount a.tPlus {background: url(../images/ico_plus_red.png) no-repeat 50% 50%; width: 24px; height: 24px; display: inline-block; border: 2px solid #ebedf0; border-radius: 50%; float: left; padding: 8px;}
+.tAmount input {border: none; height: 44px; line-height: 44px; width: 32px; display: inline-block; text-align: center; float: left; font-size: 22px; font-weight: bold; color: #333;}
+
+/* subO */
+.subO {margin: 16px 0; background: #fff; padding: 0 25px;}
+.subO > li {border-bottom: 1px solid #ededed; padding: 14px 0; height: 30px; line-height: 30px; padding-left: 43px; font-size: 22px; color: #666; position: relative;}
+.subO > li:last-child {border-bottom: none;}
+.subO .so1 {background: url(../images/ico_pay.png) no-repeat 0 18px;}
+.subO .so2 {background: url(../images/ico_truck.png) no-repeat 0 18px;}
+.subO .so3 {background: url(../images/ico_invoice.png) no-repeat 0 18px;}
+.subO .so4 {background: url(../images/ico_coupon.png) no-repeat 0 18px;}
+.subO label {display: inline-block; font-size: 25px; color: #333; margin-right: 5px;}
+.subO .so1 ul, .subO .so1 ul li {display: inline-block;}
+.so1 ul li {width: 200px;}
+.so1 ul li i {display: inline-block; width: 23px; height: 23px; margin-right: 10px; background: url(../images/ico_radio_normal2.png) no-repeat;}
+.so1 ul li.active i {display: inline-block; width: 23px; height: 23px; background: url(../images/ico_radio_red.png) no-repeat;}
+.subO .so2 span {display: inline-block; margin-right: 30px;}
+.subO > li em {position: absolute; right: 0; top: 17px; width: 15px; height: 25px; background: url(../images/ico_right_arrow.png) no-repeat;}
+.soTotal {font-size: 22px; color: #666; text-align: right; padding: 20px 25px 25px 0;}
+.soTotal p {line-height: 1.5;}
+.soTotal p span {display: inline-block; width: 115px; color: #333;}
+.soTotal span.red {color: #ee3434;}
+
