@@ -1,0 +1,91 @@
+/* top search css overwrite */
+.category_search .search_box {border: 1px solid #e2e2e2;}
+.search_box input {width: 260px;}
+
+/* order list */
+.order_list {}
+.order_list li {background: #fff; margin-bottom: 17px; padding: 0 25px;}
+.shop_bar {border-bottom: 1px solid #f8f8f8; height: 60px; box-sizing: border-box; padding: 12px 0; position: relative;}
+.shop_bar i {display: inline-block; width: 23px; height: 23px; background: url(../images/ico_tick_blank.png) no-repeat; position: relative; margin-right: 16px; top: 7px; float: left;}
+.shop_bar i.active {background: url(../images/ico_tick_red.png);}
+
+.shop_bar i.ico_shop {display: inline-block; background: url(../images/ico_shop.png); width: 27px; height: 26px; position: relative; margin-right: 16px; top: 7px; float: left;}
+.shop_bar .status {position: absolute; right: 0; top: 18px; font-size: 18px; color: #999;}
+
+.shop_name {font-size: 25px; color: #333; line-height: 36px; float: left; margin-right: 26px; display: inline-block;}
+.shop_bar .ico_chat {display: inline-block; background: url(../images/ico_service.png) no-repeat; width: 33px; height: 36px; float: left;}
+.order_list li ul li {position: relative; padding-right: 0;}
+.order_list li ul li > div {padding: 24px 0; border-bottom: 1px solid #f5f5f5; position: relative;}
+.order_list li ul li em {display: inline-block; width: 23px; height: 23px; background: url(../images/ico_tick_blank.png) no-repeat; position: absolute; left: 0; top: 24px;}
+.order_list li ul li em.active {background: url(../images/ico_tick_red.png);}
+.order_list li ul li .img {border: 1px solid #e8e8e8; border-radius: 8px; margin: 0 16px;}
+.order_list .cp {width: 410px;}
+.order_list .prod_name {font-size: 22px; color: #333; line-height: 34px; top: -6px; margin-bottom: 8px; position: relative;}
+.order_list .cp .cRow {font-size: 20px; color: #999; line-height: 1.5;}
+.order_list .cp .price {color: #f44c4c; font-size: 22px;}
+.order_list .cp .discount {display: inline-block; position: relative; background: #ee3434; font-size: 17px; color: #fff; height: 26px; line-height: 26px; padding: 0 13px 0 10px; margin-left: 35px;}
+.order_list .cp .discount:before {position: absolute; content: ''; display: inline-block; width: 0; height: 0; border-top: 13px solid transparent; border-bottom: 13px solid transparent; border-right: 15px solid #ee3434; left: -15px;}
+.order_list .tAmount {position: absolute; right: 80px; top: 58px; padding: 0; margin: 0; float: left; font-size: 18px; color: #ccc;}
+.order_list .refund {position: absolute; right: 0; bottom: 25px; font-size: 18px; color: #666;}
+.order_list .pb {font-size: 22px; color: #333;}
+.order_list .pl, .order_list .pl2 {margin-top: 8px;}
+.order_list .pb .pl2 {padding-left: 60px;}
+.order_list .pb .pl2 a {color: #666;}
+.order_list .pb span.price {color: #ee3434; font-size: 25px;}
+.btn a {height: 48px; line-height: 48px; border-radius: 6px; display: inline-block; padding: 0 20px; background: #ee3434; border: 1px solid #ee3434; color: #fff; text-align: center;}
+.btn.btn2 a {background: #fff; color: #ee3434;}
+.btn.btn3 a {background: #00a0e9; border-color: #00a0e9;}
+.btn.btn4 a {background: #fff; border-color: #00a0e9; color: #00a0e9;}
+.om {background: #fff; padding: 8px 25px; margin: 0 auto 16px;}
+.om li {display: inline-block; width: 25%; height: 85px; text-align: center; float: left;}
+.om li:last-child {border: none;}
+.om li a {display: inline-block; width: 100%; height: 85px; text-align: center; font-size: 22px; color: #333;}
+.om li em {display: inline-block; margin: 12px auto 0; width: 46px; height: 35px; position: relative;}
+.om li em i {display: inline-block; background: #ee3434; border-radius: 11px; font-size: 15px; font-style: normal; color: #fff; position: absolute; top: -5px; right: -5px; padding: 0 5px; box-sizing: border-box; min-width: 22px; text-align: center; height: 22px; line-height: 22px;}
+.om li span {display: block; text-align: center; line-height: 1;}
+.om1 em {background: url(../images/member/ico_doc.png) no-repeat 50% 50%;}
+.om1.active em {background: url(../images/member/ico_doc_red.png) no-repeat 50% 50%;}
+.om2 em {background: url(../images/member/ico_money.png) no-repeat 50% 50%;}
+.om3 em {background: url(../images/member/ico_truck.png) no-repeat 50% 50%;}
+.om4 em {background: url(../images/member/ico_review.png) no-repeat 50% 50%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+/* member header */
+.member_header {background: url(../images/member/member_topbg.jpg) no-repeat; height: 190px; position: relative; box-sizing: border-box; padding-top: 64px; padding-left: 168px; font-size: 24px; color: #fff;}
+.user_photo {position: absolute; top: 44px; left: 33px; width: 102px; height: 102px; border-radius: 50%;}
+.user_photo img {max-width: 100%; height: auto;}
+.user_name {font-size: 29px; line-height: 1; padding-bottom: 5px;}
+.member_msg {position: absolute; right: 35px; top: 43px; background: url(../images/member/ico_msg.png); width: 35px; height: 33px;}
+.member_msg em {display: inline-block; background: #ee3434; border-radius: 11px; font-size: 15px; font-style: normal; color: #fff; position: absolute; top: -5px; right: -10px; padding: 0 5px; box-sizing: border-box; min-width: 22px; text-align: center; height: 22px; line-height: 22px;}
+
+.member_section .member_heading {padding: 20px 25px 20px 66px; font-size: 25px; color: #333;}
+.ms1 .member_heading {background: url(../images/member/ico_doc_blue.png) no-repeat 22px 28px;}
+.ms2 .member_heading {background: url(../images/member/ico_share_green.png) no-repeat 22px 28px;}
+
+.om {background: #fff; padding: 8px 25px; margin: 0 auto;}
+.om li {display: inline-block; width: 117px; height: 85px; border-right: 1px solid #dde5e8; text-align: center; float: left;}
+.om li:last-child {border: none;}
+.om li a {display: inline-block; width: 100%; height: 85px; text-align: center; font-size: 22px; color: #333;}
+.om li em {display: inline-block; margin: 12px auto 0; width: 46px; height: 35px; position: relative;}
+.om li em i {display: inline-block; background: #ee3434; border-radius: 11px; font-size: 15px; font-style: normal; color: #fff; position: absolute; top: -5px; right: -5px; padding: 0 5px; box-sizing: border-box; min-width: 22px; text-align: center; height: 22px; line-height: 22px;}
+.om li span {display: block; text-align: center; line-height: 1;}
+.om1 em {background: url(../images/member/ico_doc.png) no-repeat 50% 50%;}
+.om2 em {background: url(../images/member/ico_money.png) no-repeat 50% 50%;}
+.om3 em {background: url(../images/member/ico_truck.png) no-repeat 50% 50%;}
+.om4 em {background: url(../images/member/ico_review.png) no-repeat 50% 50%;}
+.om5 em {background: url(../images/member/ico_order.png) no-repeat 50% 50%;}
+
+
+.mo {background: #fff; border-top: 1px solid #e6e6e6;}
+.mo li {display: inline-block; width: 33.333%; height: 84px; float: left; box-sizing: border-box; border-right: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6;}
+.mo li:nth-child(3n) {border-right: none;}
+.mo li a {display: inline-block; padding: 25px 0 25px 86px; box-sizing: border-box; width: 100%: height: 84px; line-height: 34px; color: #333; font-size: 22px; position: relative;}
+.mo li em {display: inline-block; position: absolute; left: 39px; top: 30px;}
+.mo1 em {background: url(../images/member/ico1.png) no-repeat 0 0; width: 31px; height: 19px; margin-top: 3px;}
+.mo2 em {background: url(../images/member/ico2.png) no-repeat 0 0; width: 31px; height: 33px; margin-top: -2px;}
+.mo3 em {background: url(../images/member/ico3.png) no-repeat 0 0; width: 30px; height: 29px; margin-top: -3px;}
+.mo4 em {background: url(../images/member/ico4.png) no-repeat 0 0; width: 33px; height: 36px; margin-top: -3px;}
+.mo5 em {background: url(../images/member/ico5.png) no-repeat 0 0; width: 32px; height: 32px; margin-top: -4px;}
+.mo6 em {background: url(../images/member/ico6.png) no-repeat 0 0; width: 31px; height: 28px; margin-top: -1px;}
+.mo7 em {background: url(../images/member/ico7.png) no-repeat 0 0; width: 29px; height: 49px; margin-top: -12px; margin-left: 2px;}
+.mo8 em {background: url(../images/member/ico8.png) no-repeat 0 0; width: 31px; height: 34px; margin-top: -2px;}
+.mo9 em {background: url(../images/member/ico9.png) no-repeat 0 0; width: 31px; height: 25px; margin-top: 3px;}
+.mo10 em {background: url(../images/member/ico10.png) no-repeat 0 0; width: 30px; height: 34px; margin-top: -7px;}

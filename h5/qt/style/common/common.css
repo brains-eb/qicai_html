@@ -42,7 +42,7 @@ ins, a { text-decoration: none; }
 .fn-clear { zoom: 1; /* for IE6 IE7 */ }
 /* 隐藏, 通常用来与 JS 配合 */
 body .fn-hide { display: none; }
-html, body { min-height: 100%; background-color: #fff; width: 100%;}
+html, body { min-height: 100%; background-color: #f6f6f6; width: 100%;}
 /* 设置内联, 减少浮动带来的bug */
 .fn-left, .fn-right { display: inline; }
 .fn-left { float: left; }

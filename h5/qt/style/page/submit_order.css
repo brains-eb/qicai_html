@@ -45,7 +45,7 @@
 .subO label {display: inline-block; font-size: 25px; color: #333; margin-right: 5px;}
 .subO .so1 ul, .subO .so1 ul li {display: inline-block;}
 .so1 ul li {width: 200px;}
-.so1 ul li i {display: inline-block; width: 23px; height: 23px; margin-right: 10px; background: url(../images/ico_radio_normal2.png) no-repeat;}
+.so1 ul li i {display: inline-block; width: 23px; height: 23px; margin-right: 10px; background: url(../images/ico_radio_normal2.png) no-repeat; position: relative; top: 4px;}
 .so1 ul li.active i {display: inline-block; width: 23px; height: 23px; background: url(../images/ico_radio_red.png) no-repeat;}
 .subO .so2 span {display: inline-block; margin-right: 30px;}
 .subO > li em {position: absolute; right: 0; top: 17px; width: 15px; height: 25px; background: url(../images/ico_right_arrow.png) no-repeat;}
