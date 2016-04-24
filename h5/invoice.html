@@ -1,0 +1,57 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>齐采网 - 发票信息</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta content="telephone=no" name="format-detection">
+    <link rel="stylesheet" href="qt/style/common/common.css">
+    <link rel="stylesheet" href="qt/style/page/invoice.css">
+    
+	<script type="text/javascript" src="qt/script/frame/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="qt/script/frame/WebTools.js"></script>
+    <script type="text/javascript" src="qt/script/frame/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="qt/script/common/common.js"></script>
+    <script type="text/javascript" src="qt/script/page/invoice.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="pageWidth">
+		<div class="mainContent">
+			<div class="invoice_section fn-clear">
+				<div class="title">发票类型</div>
+				<ul class="invoice_type fn-clear">
+					<li class="active"><span>普通发票</span></li>
+					<li><span>电子发票</span></li>
+					<li><span>增值税发票</span></li>
+				</ul>
+			</div>
+
+			<div class="invoice_section fn-clear">
+				<div class="title">发票抬头</div>
+				<ul class="invoice_title fn-clear">
+					<li class="active"><i></i>个人</li>
+					<li><i></i>单位</li>
+				</ul>
+				<input type="text" id="invoice_title" placeholder="请输入姓名或公司全称" />
+			</div>
+
+			<div class="invoice_section fn-clear">
+				<div class="title">发票抬头</div>
+				<ul class="invoice_title_type">
+					<li class="active"><i></i>电脑配件</li>
+					<li><i></i>明细</li>
+					<li><i></i>办公用品（附购物清单）</li>
+					<li><i></i>耗材</li>
+				</ul>
+			</div>
+
+			<div align="center" class="btn btn-confirm"><a href="javascript:void(0)">确认</a></div>
+		</div>
+	</div>			
+</div>
+</body>
+</html>

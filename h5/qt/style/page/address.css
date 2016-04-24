@@ -1,0 +1,18 @@
+/* address */
+.address li {background: #fff; border-top: 16px solid #f6f6f6; padding: 20px 25px 15px; font-size: 22px; color: #333;}
+.address_info {border-bottom: 1px solid #eee; padding-bottom: 15px; margin-bottom: 15px;}
+.address_info p {position: relative; padding-left: 120px; padding-bottom: 5px;}
+.address_info label {position: absolute; width: 110px; text-align: right; color: #666; left: 0;}
+
+.add_bl {font-size: 20px; color: #666; line-height: 30px;}
+.add_bl em {display: inline-block; width: 24px; height: 24px; background: url(../images/ico_radio_normal.png) no-repeat; background-size: 24px 24px; margin-right: 10px; position: relative; top: 4px;}
+.address li.active .add_bl em {background: url(../images/ico_radio_active.png) no-repeat; background-size: 24px 24px;}
+.add_br a {color: #666; font-size: 22px; line-height: 30px; display: inline-block; padding: 0 5px 0 20px;}
+
+/* footer */
+.footer.addressFooter {width: 640px; height: 80px; padding: 0; margin: 0 auto; box-sizing: border-box; padding: 10px 25px;}
+.footer.addressFooter a {display: inline-block; background: #ee3434; border-radius: 6px; text-align: center; height: 50px; line-height: 50px; margin-top: 7px; font-size: 30px; color: #fff; width: 100%;}
+.footer.addressFooter em {display: inline-block; width: 32px; height: 30px; background: url(../images/ico_plus_white.png) no-repeat; margin-right: 18px; position: relative; top: 5px;}
+
+
+
