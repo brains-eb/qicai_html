@@ -1,0 +1,23 @@
+.ot_section {padding: 25px 25px 10px 25px; background: #fff; font-size: 22px; color: #333; margin-bottom: 16px; position: relative;}
+.ot_section p {padding-bottom: 10px; font-size: 22px; color: #333; position: relative;}
+.ot_section label {color: #666;}
+.ot_section .status {color: #666; position: absolute; top: 25px; right: 25px;}
+
+a.status {position: absolute; right: 0; top: 0; color: #666;}
+em.arrow_right {display: inline-block; width: 15px; height: 25px; position: absolute; right: 0; top: 5px; background: url(../images/ico_right_arrow.png) no-repeat;}
+
+.order_detail p {position: relative; padding-left: 112px; font-size: 22px; line-height: 1.4;}
+.order_detail label {position: absolute; left: 0; text-align: right; width: 110px; font-size: 22px; line-height: 1.4;}
+
+.order_track li {padding-left: 64px; position: relative;}
+.order_track li:before {position: absolute; content: ''; display: inline-block; left: 10px; top: 18px; width: 15px; height: 15px; border: 1px solid #06aceb; background: #fff; z-index: 10; border-radius: 50%;}
+.order_track li.active:before {background: #06aceb; width: 21px; height: 21px; left: 7px; top: 8px;}
+.order_track li:after {position: absolute; content: ''; top: 0; left: 18px; width: 1px; height: 100%; background: #06aceb; z-index: 8;}
+.order_track li:first-child:after {top: 15px;}
+.order_track li:last-child:after {height: 20px;}
+.order_track li p {color: #999;}
+.order_track li.active p {color: #333;}
+.order_track li.active p.date {color: #999;}
+.order_track li > div {border-bottom: 1px solid #ededed; padding-top: 10px;}
+.order_track li:first-child > div {padding-top: 0;}
+.order_track li:last-child > div {border-bottom: none;}

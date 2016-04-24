@@ -1,0 +1,19 @@
+/* profile */
+.profile_section {background: #fff; padding: 15px 25px; font-size: 24px; color: #333; margin-bottom: 15px; position: relative;}
+.profile label {color: #333; font-size: 24px;}
+.profile_top label {margin-top: 24px;}
+em.arrow_right {display: inline-block; width: 15px; height: 25px; top: 30px; right: 0; background: url(../images/ico_right_arrow.png) no-repeat; float: right; margin-left: 20px; position: relative;}
+.profile_list {margin: -15px 0;}
+.profile_list > li {border-bottom: 1px solid #ededed; padding: 25px 0 25px 120px; height: 78px; line-height: 28px; font-size: 24px; color: #333; float: left; width: 100%; box-sizing: border-box;}
+.profile_list > li:last-child {border-bottom: none;}
+.profile_list li label {float: left; margin-right: 20px; position: absolute; left: 25px; width: 120px;}
+.profile_list li input {border: none; width: 430px; height: 28px; line-height: 28px;}
+.gender li {display: inline-block; width: 70px; text-align: center; margin-left: 30px;}
+.gender em {display: inline-block; width: 24px; height: 24px; background: url(../images/ico_radio_normal.png) no-repeat; background-size: 24px 24px; margin-right: 10px; position: relative; top: 4px;}
+.gender li.active em {background: url(../images/ico_radio_active.png) no-repeat; background-size: 24px 24px;}
+
+/* footer */
+.footer.profileFooter {width: 640px; height: 80px; padding: 0; margin: 0 auto; box-sizing: border-box; padding: 10px 25px; background: transparent; box-shadow: none;}
+.footer.profileFooter a {display: inline-block; background: #ee3434; border-radius: 6px; text-align: center; height: 50px; line-height: 50px; margin-top: 7px; font-size: 30px; color: #fff; width: 100%;}
+
+
