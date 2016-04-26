@@ -1,0 +1,14 @@
+/* points */
+.points_header {background: #ee3434; height: 198px; text-align: center; position: relative; font-size: 25px; color: #f0f0f0; margin-bottom: 16px;}
+.score {font-size: 42px; font-weight: bold; color: #fefefe; padding: 55px 0 0;}
+.qm {position: absolute; top: 18px; height: 27px; right: 25px; font-size: 25px; color: #f0f0f0; background: url(../images/ico_qm.png) no-repeat; padding-left: 33px; line-height: 1;}
+
+.full_height_white {background: #fff;}
+.pts_list {padding: 0 25px; background: #fff;}
+.pts_list .title {font-size: 27px; color: #666;}
+.pts_list li {border-bottom: 1px solid #ececec; padding: 25px 0; height: 92px; line-height: 42px; box-sizing: border-box; position: relative;}
+.pts_li {font-size: 24px; color: #666; line-height: 42px;}
+.pts_li span {padding-right: 18px;}
+.pts_list .date {position: absolute; top: 5px; right: 0; width: 100px; text-align: center; font-size: 17px; color: #999;}
+.pts_list .pts {font-size: 25px; color: #ee3434; position: absolute; top: 40px; right: 0; width: 100px; text-align: center;}
+.pts_list .pts.gray {color: #666;}

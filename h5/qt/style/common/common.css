@@ -101,6 +101,7 @@ h3.title:after {position: absolute; right: -40px; width: 31px; height: 1px; back
 .wrapper {background: #f6f6f6;}
 /* main Content */
 .mainContent {width:100%; box-sizing: border-box; position: relative; z-index: 15; padding-bottom: 98px; z-index: 18;}
+.mainContent.no_padding {padding-bottom: 0;}
 .pageWidth { width: 640px; margin: 0 auto; position: relative;}
 
 /* footer */

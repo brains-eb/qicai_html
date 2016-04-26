@@ -26,7 +26,7 @@
 .btn.btn_blue a {background: #fff; border-color: #00a0e9; color: #00a0e9;}
 
 /* review section */
-.review_section {background: #fff; padding: 10px 25px 50px; color: #333;}
+.review_section {background: #fff; padding: 10px 25px; color: #333;}
 .review_section .title {font-size: 25px; margin-bottom: 10px;}
 .review_list {margin-bottom: 30px;}
 .review_list li {position: relative; padding-left: 195px; height: 38px; line-height: 38px; font-size: 22px;}
@@ -38,9 +38,21 @@
 .stars li.active em {background: url(../images/ico_star1.png) no-repeat;}
 
 .submit_review {text-align: center;}
-.submit_review a {height: 48px; line-height: 48px; border-radius: 6px; display: inline-block; padding: 0 20px; background: #fff; border: 1px solid #ee3434; color: #ee3434; font-size: 22px; text-align: center;}
-
+.submit_review .red_btn {height: 48px; line-height: 48px; border-radius: 6px; display: inline-block; padding: 0 20px; margin-bottom: 30px; background: #fff; border: 1px solid #ee3434; color: #ee3434; font-size: 22px; text-align: center;}
 
 .review_msg {position: absolute; left: 0; top: 0; z-index: 100; width: 100%; height: 114px; line-height: 114px; text-align: center; color: #fff; font-size: 24px; background: rgba(238,52,52,.8);}
 
+.review_section label {font-size: 25px; color: #333; display: inline-block; float: left; margin-right: 5px;}
+.r1, .r2, .r3 {padding: 5px 0;}
+.r1 .stars {float: left; margin-top: 8px;}
+.r2 textarea {width: 100%; height: 200px; border: 1px solid #e6e6e6; font-size: 22px; color: #999; padding: 15px; box-sizing: border-box; margin: 10px 0;}
 
+.r3 i {display: inline-block; width: 130px; height: 130px; border: 2px solid #d9d9d9; background: url(../images/ico_plus_big.png) no-repeat 50% 50%;}
+.r3 input {filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; opacity: 0;}
+.r3 span {font-size: 22px; color: #999; padding-left: 10px;}
+
+.r4 {padding: 50px 0;}
+.anno {font-size: 20px; color: #999; padding-left: 15px;}
+.anno.active {color: #ee3434;}
+.anno em {display: inline-block; width: 23px; height: 23px; background: url(../images/ico_radio_normal2.png) no-repeat; margin-right: 5px; position: relative; top: 3px;}
+.anno.active em {background: url(../images/ico_radio_red.png) no-repeat;}
