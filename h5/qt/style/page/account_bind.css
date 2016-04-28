@@ -1,0 +1,222 @@
+/* account_bind */
+.wxinfo {
+  background: #fff;
+  margin-bottom: 15px;
+  padding: 30px 36px 36px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.wxinfo img {
+  vertical-align: bottom;
+  width: 110px;
+  height: 110px;
+  margin-right: 20px;
+}
+.wxinfo h3 {
+  font-size: 22px;
+  line-height: 46px;
+  margin-top: 12px;
+  font-weight: normal;
+}
+.wxinfo p {
+  font-size: 22px;
+  line-height: 46px;
+}
+.bind {
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+.bind .bindnav {
+  border-bottom: 1px solid #e6e6e6;
+}
+.bind .bindnav li {
+  width: 50%;
+  float: left;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+  line-height: 70px;
+  color: #666;
+}
+.bind .bindnav li.cur {
+  background: #ccc;
+}
+.bind .bindnav li.cur:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  bottom: -12px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 12px solid #ccc;
+}
+.bind .bindcont {
+  padding: 0 20px;
+}
+.bind .bindcont input {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 10px 5px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 22px;
+  line-height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.bind .bindcont input#loginpassword {
+  border: none;
+}
+.bind .bindcont .msgcode {
+  margin: 30px 0 18px;
+}
+.bind .bindcont .msgcode #codenum {
+  margin-left: 6px;
+  width: 390px;
+  float: left;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  line-height: 40px;
+}
+.bind .bindcont .msgcode .getcode {
+  display: block;
+  float: right;
+  width: 160px;
+  font-size: 20px;
+  line-height: 62px;
+  text-align: center;
+  background: #999;
+  color: #fff;
+  margin-right: 16px;
+  border-radius: 6px;
+}
+.bind .bindcont .msgcode .getcode span {
+  padding-left: 4px;
+}
+.bind .bindcont p {
+  padding-bottom: 40px;
+}
+.bind .bindcont p i {
+  display: block;
+  margin-right: 6px;
+  float: left;
+  width: 18px;
+  height: 18px;
+  background: url(../images/checkbox.png) no-repeat;
+  background-size: 100% 100%;
+}
+.bind .bindcont p i.checked {
+  background: url(../images/checked.png) no-repeat;
+  background-size: 100% 100%;
+}
+.bind .bindcont p a {
+  display: block;
+  float: left;
+  font-size: 18px;
+  line-height: 18px;
+  color: #333;
+}
+/*pop*/
+#pop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1988;
+  background: rgba(145, 145, 145, 0.7);
+  display: none;
+}
+#pop .cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -20%);
+  transform: translate(-50%, -20%);
+}
+#pop .cont .tips {
+  color: #333;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+  border: 2px solid #c0c0c0;
+  border-radius: 8px;
+  min-width: 400px;
+  padding: 60px;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+#pop .cont .closebtn {
+  position: relative;
+  padding-top: 140px;
+  text-align: center;
+}
+#pop .cont .closebtn:before {
+  content: '';
+  width: 2px;
+  height: 140px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+#pop .cont .closebtn .close {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+#pop .cont .closebtn .close::before,
+#pop .cont .closebtn .close::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 80%;
+  top: 50%;
+  left: 10%;
+  margin-top: -1px;
+  background: #fff;
+}
+#pop .cont .closebtn .close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#pop .cont .closebtn .close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* footer */
+.footer.bindFooter {
+  width: 640px;
+  height: 100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px 25px 20px;
+  background: transparent;
+  box-shadow: none;
+}
+.footer.bindFooter a {
+  display: inline-block;
+  background: #ee3434;
+  border-radius: 6px;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  font-size: 30px;
+  color: #fff;
+  width: 100%;
+}
+/*# sourceMappingURL=account_bind.css.map */

@@ -1,0 +1,76 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>齐采网 - 账号绑定</title>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta content="telephone=no" name="format-detection">
+    <link rel="stylesheet" href="qt/style/common/common.css">
+    <link rel="stylesheet" href="qt/style/page/account_bind.css">
+    
+	<script type="text/javascript" src="qt/script/frame/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="qt/script/frame/WebTools.js"></script>
+    <script type="text/javascript" src="qt/script/frame/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="qt/script/common/common.js"></script>
+    <script type="text/javascript" src="qt/script/page/account_bind.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="pageWidth">
+		<div class="mainContent">
+			<div class="wxinfo fn-clear">
+				<a href="javascript:void(0)" class="fL"><img src="qt/images/user_photo.png" /></a>
+				<h3>微信账号：<span>摩西多max</span></h3>
+				<p>手机：<span>未设置</span></p>
+			</div>
+			
+			<div class="bind">
+				<ul class="bindnav fn-clear">
+					<li class="cur">绑定新手机</li>
+					<li>已有账号</li>
+				</ul>
+				<div class="bindcont">
+					<div class="m-cont">
+						<input type="text" name="phonenum" id="phonenum" value="" placeholder="设置手机号" />
+						<input type="password" name="password" id="password" value="" placeholder="设置登录密码" />
+						<input type="password" name="repassword" id="repassword" value="" placeholder="再次输入密码" />
+						<div class="fn-clear msgcode">
+							<input type="text" name="codenum" id="codenum" value="" />
+							<a href="javascript:void(0)" class="getcode">获取短信验证</a>
+							
+							<!--<a href="javascript:void(0)" class="getcode locked">重新发送<span>58</span></a>-->
+						</div>
+						<p class="fn-clear"><i class="checkbox checked"></i><a href="#">我已阅读并同意遵守法律声明和隐私条款</a></p>
+					</div>
+					<div class="m-cont fn-hide">
+						<input type="text" name="loginname" id="loginname" value="" placeholder="登录帐号" />
+						<input type="password" name="loginpassword" id="loginpassword" value="" placeholder="登录密码" />
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<!-- Footer start -->
+		<div class="footer bindFooter fn-clear">
+			<a href="javascript:void(0)" id="submit">提交绑定</a>
+		</div>
+		<!-- Footer end -->
+		
+		<!--绑定成功弹窗-->
+		<div id="pop">
+			<div class="cont">
+				<div class="tips">
+					您的手机绑定成功！
+				</div>
+				<div class="closebtn">
+					<span class="close"></span>
+				</div>
+			</div>
+		</div>
+	</div>			
+</div>
+</body>
+</html>
